@@ -1,0 +1,113 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Document requirements of the product}
+\author{jose.chavez@utec.edu.pe \\ sergio.carbone@utec.edu.pe\\antonio.toche@utec.edu.pe\\jeffrey.orihuela@utec.edu.pe\\fernando.socualaya@utec.edu.pe}
+\date{April 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Target user profile and Value proposition}
+    EN nuestro proyecto tenemos dos usuarios objetivos . El primero es el \textbf{ usuario de Yape que frecuenta MYPES y PYMES} (micro y pequeñas empresas ). El otro es el \textbf{usuario de Yape dueno de MYPES o PYMES}. Ambos con una gran aficion a la tecnologia y en busca de nuevas formas de digitalizar los procesos de venta aprovechando estas herramientas que agilizan , aseguran y facilitan sus ventas o compras.\\ La principal propuesta de valor de Yacket es añadir la una opcion que te permita al momento de recibir un pago, hacerle llegar al remitente una boleta o factura correspondiente.     
+    \begin{itemize}
+    \item Como dueño de una mype, quiero que me organicen las boletas para que se me faciliten los trámites con la SUNAT.
+    \item Como dueño de una mype, me gustaria recibir informacion sobre las ventas a lo largo de los dias de la semana para poder distribuir mejor los recursos.
+    \item Como cliente, quiero poder ver organizados mis gastos para así poder invertir mejor mi dinero y no hacer gastos innecesarios.
+    \item Como cliente, quiero poder pagar sin efectivo para no recibir dinero falso.
+    \item Como cliente me gustaria que se pueda dividir la cuenta entre varias personas para poder facilitar el pago
+
+
+
+    \end{itemize}
+    
+\section{Use cases}
+\begin{enumerate}
+    \item Como dueño de una mype, me gustaría guardar un registro de mis clientes para poder reconocerlos y fidelizarlos.
+    \begin{itemize}
+        \item \textbf{Software System :} Yape
+        \item \textbf{Actor: } Dueño MYPE , Cliente
+        \item \textbf{Use Case : } Guardar clientes frecuentes 
+        \begin{enumerate}
+            \item Cliente realiza pago
+            \item Dueño MYPE recibe pago de Cliente
+            \item Yape guarda contador de transacciones de Cliente
+            \item Sumarle uno a contador de Cliente
+            \item Actualizar contadores
+            \item Listar Clientes con mas transacciones\\
+            Use Case ends.
+        \end{enumerate}
+    \end{itemize}
+    
+    \item Como cliente quiero contar con boletas o facturas electronicas para asi tener la seguridad de que nunca se me perdera alguna.
+   \begin{itemize}
+        \item \textbf{Software System :} Yape 
+        \item \textbf{Actor: } Cliente
+        \item \textbf{Use Case : } Generar Boleta/Factura electronica 
+        \begin{enumerate}
+            \item Cliente escanea codigo QR de transaccion
+            \item Yape recopila los datos de transaccion
+            \item Yape hace un request a los servidores de la SUNAT
+            \item Yape genera y envia el pdf al Cliente
+            \item Yape espera la respuesta de la BDD de SUNAT\\
+            Use Case ends.
+        \end{enumerate}
+    \end{itemize}
+    
+    \item .
+   \begin{itemize}
+        \item \textbf{Software System :} 
+        \item \textbf{Actor: } 
+        \item \textbf{Use Case : } 
+        \begin{enumerate}
+            \item .\\
+            Use Case ends.
+        \end{enumerate}
+    \end{itemize}
+
+
+ \item .
+   \begin{itemize}
+        \item \textbf{Software System :} 
+        \item \textbf{Actor: } 
+        \item \textbf{Use Case : } 
+        \begin{enumerate}
+            \item .\\
+            Use Case ends.
+        \end{enumerate}
+    \end{itemize}
+    
+    \item .
+   \begin{itemize}
+        \item \textbf{Software System :} 
+        \item \textbf{Actor: } 
+        \item \textbf{Use Case : } 
+        \begin{enumerate}
+            \item .\\
+            Use Case ends.
+        \end{enumerate}
+    \end{itemize}
+    
+\end{enumerate}
+
+\section{Non-functional requirements}
+\begin{enumerate}
+    \item Poder organizar segun sector los pagos que realiza cada usuario.
+    \item LLevar un registro de los consumidores y se analize los dias mas concurrentes y de mayor demanda.
+    \item Aceptar dentro de el pago propina o estar en la capacidad de dividar la cuenta en un numero determinado de personas.
+    \item Poder soportar pagos de pedidos a domicilio.
+\end{enumerate}
+
+\section{Glossary}
+
+
+
+\section{Product survey}
+Un producto muy similar a YAPE existe por parte del banco interbank. Este producto se llama TUNKI y asi como YAPE tambien permite hacer pagos de dinero usando solamente un numero telefonico.\\
+Ambos tienen las mismas fucionalidades de realizar pagos y cobros desde la misma applicacion a sus contactos o escaneando un codigo QR. En el caso de las empresas tambien se le puede realizar pagos a estas escaneando un codigo QR. Si bien ambas aplicaciones presentan las mismas funcionalidades YAPE en su beneficio es mas reconocida en el mercado y ah tenido una mejor difucion.  Sin embargo ninfuna de las aplicaciones cuenta con algo similar a YACKET e incluir como parte de YAPE podria darle un claro valor agregado por esta innovadora herramieta.
+
+
+
+\end{document}
+
