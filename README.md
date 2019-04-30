@@ -5,7 +5,7 @@ YapeTicket provides a new feature to the Yape platform, making it able to genera
 To read the documentation go to doc/documentation.md.
 User stories can be found both in documentation and in Project section.
 
-* Development Team:
+## Development Team:
 	- Carbone, Sergio
 	- Chávez, José (@JoseChavez98) 
 	- Orihuela, Jeffrey (@amaru666)

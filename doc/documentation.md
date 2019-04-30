@@ -11,11 +11,6 @@ The main value proposal of our team is to add the feature of make possible to ge
 ## User Stories
 
 ### Must have
- 
-* As a MYPE owner, I would like to have all my emmited tickets/invoices sorted by different categories.
-
-* As a client, I want to have electronic ticket/invoices or bills to be sure that I will
-never lose them.
 
 * As the owner of a MYPE, I would like to keep a record of my clients in order to recognize them and build loyalty.
 
@@ -83,11 +78,11 @@ never lose them.
 * Software System: Yape
 * Actor: MYPE Customer
 * Use Case : Generate electronic bill
-(a)  Client scans transaction QR code
-(b)  Yape collects transaction data
-(c)  Yape makes a request to SUNAT servers
-(d)  Yape generates and sends the pdf ticket/invoice to the Client
-(e)  Yape awaits the response from the SUNAT BDD
+    * (a)  Client scans transaction QR code
+    * (b)  Yape collects transaction data
+    * (c)  Yape makes a request to SUNAT servers
+    * (d)  Yape generates and sends the pdf ticket/invoice to the Client
+    * (e)  Yape awaits the response from the SUNAT BDD
 Use Case ends
 
 2. As the owner of a MYPE, I would like to keep a record of my clients in order to recognize them and build loyalty.
@@ -95,12 +90,12 @@ Use Case ends
 * Software System: Yape
 * Actor: MYPE owner , Client
 * Use Case : Save frequent clients
-(a)  Client makes payment
-(b)  MYPE owner receives payment
-(c)  Yape saves Client transactions counter
-(d)  Add one to client counter
-(e)  Update counters
-(f)  List clients with more transactions
+    * (a)  Client makes payment
+    * (b)  MYPE owner receives payment
+    * (c)  Yape saves Client transactions counter
+    * (d)  Add one to client counter
+    * (e)  Update counters
+    * (f)  List clients with more transactions
 Use Case ends.
 
 ## Non-functional requirements
