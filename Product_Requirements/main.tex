@@ -9,94 +9,101 @@
 
 \maketitle
 
-\section{Target user profile and Value proposition}
-    EN nuestro proyecto tenemos dos usuarios objetivos . El primero es el \textbf{ usuario de Yape que frecuenta MYPES y PYMES} (micro y pequeñas empresas ). El otro es el \textbf{usuario de Yape dueno de MYPES o PYMES}. Ambos con una gran aficion a la tecnologia y en busca de nuevas formas de digitalizar los procesos de venta aprovechando estas herramientas que agilizan , aseguran y facilitan sus ventas o compras.\\ La principal propuesta de valor de Yacket es añadir la una opcion que te permita al momento de recibir un pago, hacerle llegar al remitente una boleta o factura correspondiente.     
+\section{Target user profile and value proposition}
+   In our project, we have two main objective users. The first is a user of YAPE that usually goes to MYPES and PYMES(micro and small business). The other is a YAPE user owner of a MYPES or PYMES(micro and small business).\\ Both have a big liking of technology and constantly look for new ways of digitizing all the process of selling taking advantage of these tools that streamline, secure and facilitate the shopping and sales.\\
+   The main value proposal from our team is to add the feature of make possible to emit a ticket or invoice when you pay through YAPE instantly.
+    \subsection{User Stories} 
     \begin{itemize}
-    \item Como dueño de una mype, quiero que me organicen las boletas para que se me faciliten los trámites con la SUNAT.
-    \item Como dueño de una mype, me gustaria recibir informacion sobre las ventas a lo largo de los dias de la semana para poder distribuir mejor los recursos.
-    \item Como cliente, quiero poder ver organizados mis gastos para así poder invertir mejor mi dinero y no hacer gastos innecesarios.
-    \item Como cliente, quiero poder pagar sin efectivo para no recibir dinero falso.
-    \item Como cliente me gustaria que se pueda dividir la cuenta entre varias personas para poder facilitar el pago
-
+    \item As a [type of user], I want [an action] so that [a benefit/a value]
+    \item As the owner of a MYPE, I can organize all the tickets so that makes easier the procedures with SUNAT
+    \item As the owner of a MYPE, I can recive information about the sales during the days of the week so that let me distribute better the resources.
+    \item As a client, I want to be able to see my expenses organized so that I can better invest my money and not make unnecessary expenses.
+    \item As a customer, I want to be able to pay without cash so I do not receive fake money.
+    \item As a client I would like to be able to divide the account among several people in order to facilitate the payment.
 
 
     \end{itemize}
     
 \section{Use cases}
 \begin{enumerate}
-    \item Como dueño de una mype, me gustaría guardar un registro de mis clientes para poder reconocerlos y fidelizarlos.
-    \begin{itemize}
-        \item \textbf{Software System :} Yape
-        \item \textbf{Actor: } Dueño MYPE , Cliente
-        \item \textbf{Use Case : } Guardar clientes frecuentes 
-        \begin{enumerate}
-            \item Cliente realiza pago
-            \item Dueño MYPE recibe pago de Cliente
-            \item Yape guarda contador de transacciones de Cliente
-            \item Sumarle uno a contador de Cliente
-            \item Actualizar contadores
-            \item Listar Clientes con mas transacciones\\
-            Use Case ends.
-        \end{enumerate}
-    \end{itemize}
-    
-    \item Como cliente quiero contar con boletas o facturas electronicas para asi tener la seguridad de que nunca se me perdera alguna.
+
+\item As a client, I want to have electronic invoices or bills to be sure that I will never lose any.
    \begin{itemize}
         \item \textbf{Software System :} Yape 
-        \item \textbf{Actor: } Cliente
-        \item \textbf{Use Case : } Generar Boleta/Factura electronica 
+        \item \textbf{Actor: } Client
+        \item \textbf{Use Case : } Generate electronic bill
         \begin{enumerate}
-            \item Cliente escanea codigo QR de transaccion
-            \item Yape recopila los datos de transaccion
-            \item Yape hace un request a los servidores de la SUNAT
-            \item Yape genera y envia el pdf al Cliente
-            \item Yape espera la respuesta de la BDD de SUNAT\\
-            Use Case ends.
-        \end{enumerate}
-    \end{itemize}
-    
-    \item .
-   \begin{itemize}
-        \item \textbf{Software System :} 
-        \item \textbf{Actor: } 
-        \item \textbf{Use Case : } 
-        \begin{enumerate}
-            \item .\\
+            \item Client scans transaction QR code
+            \item Yape collects transaction data
+            \item Yape makes a request to SUNAT servers
+            \item Yape generates and sends the pdf to the Client
+            \item Yape awaits the response from the SUNAT BDD\\
             Use Case ends.
         \end{enumerate}
     \end{itemize}
 
-
- \item .
-   \begin{itemize}
-        \item \textbf{Software System :} 
-        \item \textbf{Actor: } 
-        \item \textbf{Use Case : } 
+    \item As the owner of a MYPE, I would like to keep a record of my clients in order to recognize them and build loyalty.
+    \begin{itemize}
+        \item \textbf{Software System :} Yape
+        \item \textbf{Actor: } MYPE owner , Client
+        \item \textbf{Use Case : } Save frequent clients 
         \begin{enumerate}
-            \item .\\
+            \item Client makes payment
+            \item MYPE owner receives payment 
+            \item Yape saves Client transactions counter            
+            \item adding one to client counter
+            \item Update counters
+            \item List clients with more transactions \\
             Use Case ends.
         \end{enumerate}
     \end{itemize}
     
-    \item .
-   \begin{itemize}
-        \item \textbf{Software System :} 
-        \item \textbf{Actor: } 
-        \item \textbf{Use Case : } 
-        \begin{enumerate}
-            \item .\\
-            Use Case ends.
-        \end{enumerate}
-    \end{itemize}
+    
+%    \item .
+%   \begin{itemize}
+%        \item \textbf{Software System :} 
+%        \item \textbf{Actor: } 
+%        \item \textbf{Use Case : } 
+%        \begin{enumerate}
+%            \item .\\
+%            Use Case ends.
+%        \end{enumerate}
+%    \end{itemize}
+
+
+ %\item .
+ %  \begin{itemize}
+ %       \item \textbf{Software System :} 
+ %       \item \textbf{Actor: } 
+ %       \item \textbf{Use Case : } 
+ %       \begin{enumerate}
+ %           \item .\\
+ %           Use Case ends.
+  %      \end{enumerate}
+ %   \end{itemize}
+    
+%    \item .
+%   \begin{itemize}
+%        \item \textbf{Software System :} 
+%        \item \textbf{Actor: } 
+%       \item \textbf{Use Case : } 
+%        \begin{enumerate}
+%            \item .\\
+%            Use Case ends.
+%        \end{enumerate}
+%    \end{itemize}
     
 \end{enumerate}
 
 \section{Non-functional requirements}
 \begin{enumerate}
-    \item Poder organizar segun sector los pagos que realiza cada usuario.
-    \item LLevar un registro de los consumidores y se analize los dias mas concurrentes y de mayor demanda.
-    \item Aceptar dentro de el pago propina o estar en la capacidad de dividar la cuenta en un numero determinado de personas.
-    \item Poder soportar pagos de pedidos a domicilio.
+    \item To be able to organize, according to sector, the payments made by each user.
+     \item Take a register of the consumers and analyze the most concurrent days and of the highest demand.
+     \item Accept within the tip payment or be in the ability to divide the account into a certain number of people.
+     \item To be able to support payments of orders at home.
+     \item Conclude the procedure with SUNAT in real time.
+     \item Categorize the type of product or service sold.
+    
 \end{enumerate}
 
 \section{Glossary}
@@ -104,8 +111,15 @@
 
 
 \section{Product survey}
-Un producto muy similar a YAPE existe por parte del banco interbank. Este producto se llama TUNKI y asi como YAPE tambien permite hacer pagos de dinero usando solamente un numero telefonico.\\
-Ambos tienen las mismas fucionalidades de realizar pagos y cobros desde la misma applicacion a sus contactos o escaneando un codigo QR. En el caso de las empresas tambien se le puede realizar pagos a estas escaneando un codigo QR. Si bien ambas aplicaciones presentan las mismas funcionalidades YAPE en su beneficio es mas reconocida en el mercado y ah tenido una mejor difucion.  Sin embargo ninfuna de las aplicaciones cuenta con algo similar a YACKET e incluir como parte de YAPE podria darle un claro valor agregado por esta innovadora herramieta.
+A product very similar to YAPE exists on Interbank . This product is called TUNKI and so as YAPE also allows you to make payments using only a phone number.
+Both have the same functions of making payments and collections from the
+same application to your contacts or scanning a QR code. In the case of
+companies, they can also make payments to these through the scanner a
+QR code. Although both applications have the same functionalities,
+YAPE for its benefit is more recognized in the market and has had a better
+diffusion. However, none of the applications has anything similar to
+YACKET and include as part of YAPE could give a clear added value
+for this innovative tool.
 
 
 
