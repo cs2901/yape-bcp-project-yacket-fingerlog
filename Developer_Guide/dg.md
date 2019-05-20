@@ -96,14 +96,10 @@ In order to have something to store the data sent, a database will be necessary.
 ### Components
 
 ### Interaction between components
+[Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/1.jpg) 
+[Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/2.jpg) 
 
 # FAQ
-
-## **Q:** Is there a limit of contributors?
-
-## **A:** No, you cant. Each QR code it is just going to be valid one time and after that it just go invalid.
-
-##
 
 #### **Q:** Is a separate application necessary for the implementation of this feature?
 
@@ -142,3 +138,4 @@ In order to have something to store the data sent, a database will be necessary.
     * Inputs: entry of data.
     * Forms: entry of data for registration purposes.
     * SUNAT: Entity that collects taxes.
+    
