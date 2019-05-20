@@ -5,7 +5,7 @@ For this, two potential costumers have been defined. The first one is the yape c
 The purpose of this project will be to implement the functionality of electronic tickets and invoices through Yape.
 
 # Features
- # #Antonio Toche/Fernando Socualaya/Sergio Carbone: UI design
+ ## Antonio Toche/Fernando Socualaya/Sergio Carbone: UI design
  
  ### Sergio Carbone/Antonio Toche/Fernando Socualaya: Yape UI
 This section will recreate the UI of the yape application since our functionality will be within the same application. Thanks to the enhanced interviews, it was decided that the functionality will be done within the application, so it is necessary to recreate the Yape interface.
