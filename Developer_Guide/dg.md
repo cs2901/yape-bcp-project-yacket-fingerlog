@@ -96,8 +96,8 @@ In order to have something to store the data sent, a database will be necessary.
 ### Components
 
 ### Interaction between components
-[Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/1.jpg) 
-[Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/2.jpg) 
+![Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/1.jpg) 
+![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/2.jpg) 
 
 # FAQ
 
