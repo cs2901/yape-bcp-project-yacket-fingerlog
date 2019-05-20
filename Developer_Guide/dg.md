@@ -76,15 +76,20 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 # Design
 ## Architecture
 <!-- ![Architecture](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/IMG_0040.jpg) -->
+### Class Diagram
 ### Architecture Diagram
 ### Components
 ### Interaction between components
 # FAQ
 
 
-## **Q:**  Is there a limit of contributors? 
-## **A:** No, you cant. Each QR code it is just going to be valid one time and after that it just go invalid.
-##
+#### **Q:** Is a separate application necessary for the implementation of this feature? 
+**A:** Yes, due to operating methods and users preferences the best way is to have separate apps
+#### **Q:** Is a database manager really needed for this implentation?
+**A** A database administrator is crucial to this implementation due to the confidential information and important good management of the data.
+#### **Q:**
+**A**
+
 # Glossary
 
     * Yape: name of the application.
