@@ -6,27 +6,50 @@ The purpose of this project will be to implement the functionality of electronic
 
 
 # Requeriments
+## Functional Requirements:
+
+1. Register new business into the platform.
+2. Send the payment voucher to both owner and customer, for every purchase.
+3. Add/remove sellers for the business.
+4. Generate the payment voucher.
+5. A platform isolated from personal accounts.
+6. Generate a QR code for each purchase.
+
+## Non functional Requirements:
+1. The size of the app should be lower than 40 MB.
+2. The payment voucher should be sent instantly to the registered emails of the owner and the customer.
+3. The QR code should be unique and have to be associated to an only one purchase.
+4. The voucher should be in PDF format and have to contain the needed information required by SUNAT.
+5. The seller must be notified when a owner add him to a business.
+
 
 
 
 # Features
 
-        * View menu: \textbf{add sidebar menu}
-        * Add new business: \textbf{add business}
-        * Add business info: \textbf{add forms}
-        * Add business info colaborators: \textbf{add colaborators forms}
-        * Change mode business: \textbf{add switcher}
-        * Create new ticket: \textbf{add ticket button}
-        * Create new selling: \textbf{add selling button}
-        * Add items on selling: \textbf{add items}
-        * Pay mode ticket: \textbf{add payment method on tickets}
-        * Pay mode selling: \textbf{add payment method on selling}
-        * Check Qr: \textbf{add Qr method payment}
+        * View menu: add sidebar menu
+        * Add new business: add business
+        * Add business info: add forms
+        * Add business info colaborators: add colaborators forms
+        * Change mode business: add switcher
+        * Create new ticket: add ticket button
+        * Create new selling: add selling button
+        * Add items on selling: add items
+        * Pay mode ticket: add payment method on tickets
+        * Pay mode selling: add payment method on selling
+        * Check Qr: add Qr method payment
         
         
-#FAQ
-## **Q:** Can I use more than once a QR code ? 
-## **A:** No, you cant. Each QR code it is just going to be valid one time and after that it just go invalid.
+# FAQ
+#### **Q:** Can I use more than once a QR code ? 
+ **A:** No, you cant. Each QR code it is just going to be valid one time and after that it just go invalid.
+ 
+ #### **Q:** Does registration have any cost or if it free?
+ **A:** As we are part of YAPE , we continue they free service policy.
+#### **Q:** Is there a limit on how many business I can register?
+**A:** No, there isn't a limit. You can add how many business you want.
+#### **Q:** Will any commission be charged for each payment made?
+ **A:** No ,there will not be any comissionon each payment. They will continue to be fast, secure and free.
 
 
 
@@ -40,3 +63,6 @@ The purpose of this project will be to implement the functionality of electronic
     * MYPE/PYME owner: The person who owns/manages a MYPE/PYME.
     * Ticket/invoice/selling: Payment vouchers.
     * SUNAT: Entity that collects taxes.
+# Anexo A
+#### [User Stories](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/User_Guide/Product_Requirements/userStories.md)
+#### [User Cases](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/User_Guide/Product_Requirements/useCases.md)
