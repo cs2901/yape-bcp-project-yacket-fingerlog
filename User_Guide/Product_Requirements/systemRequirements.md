@@ -1,10 +1,11 @@
 # Functional Requirements:
 
-1. Send the payment voucher to both owner and customer, for every purchase.
-2. Option to let owner add/remove sellers for the business.
-3. Generate the payment voucher.
-4. A platform isolated from personal accounss.
-5. Generate a QR code for each purchase.
+1. Register new business into the platform.
+2. Send the payment voucher to both owner and customer, for every purchase.
+3. Add/remove sellers for the business.
+4. Generate the payment voucher.
+5. A platform isolated from personal accounts.
+6. Generate a QR code for each purchase.
 
 # Non functional Requirements:
 1. The size of the app should be lower than 40 MB.
