@@ -75,6 +75,7 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 
 # Design
 ## Architecture
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 ### Class Diagram
 ### Architecture Diagram
 ### Components
