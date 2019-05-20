@@ -9,9 +9,9 @@
 		3. Yape Negocios display a register form.
 		4. Owner enters the required info.
 		5. Yape Negocios validates the received info.
-		6. Yape Negocios creates the account.
+		6. Yape Negocios creates the account.\
 		Use Case ends.
-	* **Extensions:**
+	* **Extensions:**\
 		5a Yape Negocios detects an error in the entered info.\
 		5a1 Yape Negocios requests for correct info.\
 		5a2 User enters data again.\
@@ -20,13 +20,14 @@
 - Login
 	* **Software System:** Yape Negocios
 	* **Actor:** Seller/Owner
-	* **Use Case:** UC03 - Log into Yape Negocios
+	* **Use Case:** UC02 - Log into Yape Negocios
 	* **Preconditions:** UC01
 		1. Seller/Owner opens the app.
 		2. Seller/Owner fills credentials.
 		3. Yape Negocios validate the credentials.
-		4. Yape Negocios display the main menu screen.
-	* **Extensions:**
+		4. Yape Negocios display the main menu screen.\
+		Use Case ends.
+	* **Extensions:**\
 		3a Yape Negocios detects an error in the entered credentials.\
 		3a1 Yape Negocios requests for correct credentials.\
 		3a2 User enters credentials again.\
