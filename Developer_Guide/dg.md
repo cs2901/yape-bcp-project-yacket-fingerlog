@@ -53,7 +53,7 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 
 - v1.1 Add Qr interface.
 
-## Antonio Toche/Fernando Socualaya/Sergio Carbone/Jose Chavez/ Jeffrey Orihuela: Implementation}
+## Antonio Toche/Fernando Socualaya/Sergio Carbone/Jose Chavez/ Jeffrey Orihuela: Implementation
 
 ### Jeffrey Orihuela/Antonio Toche: Ticket
 
