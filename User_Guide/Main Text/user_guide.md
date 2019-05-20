@@ -56,6 +56,7 @@ The purpose of this project will be to implement the functionality of electronic
 # Glossary
     * Yape: name of the application.
     * Yacket: name of the services.
+    * Seññer: cashier or person in charge of making collections.
     * MYPE/PYME: Micro and Small sized enterprises.
     * Micro sized entreprise: Conformed by less than 10 employees.
     * Small sized entreprise: Conformed by less than 20 employess.
