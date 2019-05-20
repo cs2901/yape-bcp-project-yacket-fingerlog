@@ -67,7 +67,7 @@ The selling generator will be the component that sends the generated selling to 
 * v1.3 Send/Save bill to email.
 
 
-### Sergio Carbone/Jeffrey Origuela: Qr generator
+### Sergio Carbone/Jeffrey Orihuela: Qr generator
 Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively.
 
 * v1.1 Get/Show data.
