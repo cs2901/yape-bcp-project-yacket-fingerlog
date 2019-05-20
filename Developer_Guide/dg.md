@@ -105,6 +105,18 @@ In order to have something to store the data sent, a database will be necessary.
 
 ##
 
+#### **Q:** Is a separate application necessary for the implementation of this feature?
+
+**A:** Yes, due to operating methods and users preferences the best way is to have separate apps
+
+#### **Q:** Is a database manager really needed for this implentation?
+
+**A** A database administrator is crucial to this implementation due to the confidential information and important good management of the data.
+
+#### **Q:**
+
+**A**
+
 # Glossary
 
     * Yape: name of the application.
