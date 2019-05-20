@@ -42,14 +42,14 @@ The purpose of this project will be to implement the functionality of electronic
         
 # FAQ
 #### **Q:** Can I use more than once a QR code ? 
- **A:** No, you cant. Each QR code it is just going to be valid one time and after that it just go invalid.
+ **A:** No, you can´t. Each QR code it is just going to be valid one time and after that it just go invalid.
  
- #### **Q:** Does registration have any cost or if it free?
+ #### **Q:** Does registration have any cost or is it free?
  **A:** As we are part of YAPE , we continue they free service policy.
 #### **Q:** Is there a limit on how many business I can register?
 **A:** No, there isn't a limit. You can add how many business you want.
 #### **Q:** Will any commission be charged for each payment made?
- **A:** No ,there will not be any comissionon each payment. They will continue to be fast, secure and free.
+ **A:** No ,there will not be any comissionon on each payment. They will continue to be fast, secure and free.
 
 
 
