@@ -75,8 +75,7 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 
 # Design
 ## Architecture
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
-### Class Diagram
+![Alt text](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/IMG_0040.jpg
 ### Architecture Diagram
 ### Components
 ### Interaction between components
