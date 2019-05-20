@@ -12,8 +12,7 @@ This section will recreate the UI of the yape application since our functionalit
 
 * v1.1 Add login UI.
 * v1.2 Add Main page UI.
-* v1.3 Add sidebar.
-* v1.4 Add componentes.
+* v1.3 Add sidebar and componentes.
 
 
 ### Sergio Carbone: Entity picker
