@@ -3,7 +3,7 @@
 1. Send the payment voucher to both owner and customer, for every purchase.
 2. Option to let owner add/remove sellers for the business.
 3. Generate the payment voucher.
-4. A platform isolated from personal accounss.
+4. A platform isolated from personal accounts.
 5. Generate a QR code for each purchase.
 
 # Non functional Requirements:
