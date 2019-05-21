@@ -90,6 +90,8 @@ In order to have something to store the data sent, a database will be necessary.
 
 ## Architecture
 
+### Class Diagram
+
 <!-- ![Architecture](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/IMG_0040.jpg) -->
 
 ### Architecture Diagram
