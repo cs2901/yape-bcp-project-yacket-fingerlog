@@ -26,7 +26,7 @@ The purpose of this project will be to implement the functionality of electronic
 
 # Features
 
-##As Owner
+## As Owner
 
 * Register into yape negocios: register
 * Log in: log in
@@ -43,7 +43,7 @@ The purpose of this project will be to implement the functionality of electronic
 * Pay mode selling: add payment method on selling
 * Check Qr: add Qr method payment
 
-##As Collaborator
+## As Collaborator
 
 * Register into yape negocios: owner register
 * Log in: log in
