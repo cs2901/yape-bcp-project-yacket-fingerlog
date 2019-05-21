@@ -27,30 +27,32 @@ The purpose of this project will be to implement the functionality of electronic
 # Features
 
 ##As Owner
-_ Register into yape negocios: register
-_ Log in: log in
-_ View Menu: add sidebar
-_ Enter to owner mode: add picker
-_ Add collaborator: add collaborator
-_ Delete collaborator: delete collaborator
-_ Check collaborator: check status collaborator
-_ Check notifications: add notifications
-_ Create new ticket: add ticket button
-_ Create new selling: add selling button
-_ Add items on selling: add items
-_ Pay mode ticket: add payment method on tickets
-_ Pay mode selling: add payment method on selling
-_ Check Qr: add Qr method payment
+
+* Register into yape negocios: register
+* Log in: log in
+* View Menu: add sidebar
+* Enter to owner mode: add picker
+* Add collaborator: add collaborator
+* Delete collaborator: delete collaborator
+* Check collaborator: check status collaborator
+* Check notifications: add notifications
+* Create new ticket: add ticket button
+* Create new selling: add selling button
+* Add items on selling: add items
+* Pay mode ticket: add payment method on tickets
+* Pay mode selling: add payment method on selling
+* Check Qr: add Qr method payment
 
 ##As Collaborator
-_ Register into yape negocios: owner register
-_ Log in: log in
-_ Create new ticket: add ticket button
-_ Create new selling: add selling button
-_ Add items on selling: add items
-_ Pay mode ticket: add payment method on tickets
-_ Pay mode selling: add payment method on selling
-_ Check Qr: add Qr method payment
+
+* Register into yape negocios: owner register
+* Log in: log in
+* Create new ticket: add ticket button
+* Create new selling: add selling button
+* Add items on selling: add items
+* Pay mode ticket: add payment method on tickets
+* Pay mode selling: add payment method on selling
+* Check Qr: add Qr method payment
 
 # FAQ
 
