@@ -17,7 +17,6 @@
 2. As a seller, I can avoid typing all the items every time I'm selling them.
 3. As a customer, I can see the detailed info about all the business where I have purchased some product.
 4. As a customer, I can see the detailed info about my tickets.
-5. 
 
 ## Out of Scope
 1. As an owner, I can see a report of my sellings in the app.
