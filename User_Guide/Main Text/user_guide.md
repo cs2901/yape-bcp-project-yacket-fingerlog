@@ -102,4 +102,4 @@ The purpose of this project will be to implement the functionality of electronic
 
 #### [User Stories](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/User_Guide/Product_Requirements/userStories.md)
 
-#### [User Cases](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/User_Guide/Product_Requirements/useCases.md)
+#### [Use Cases](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/User_Guide/Product_Requirements/useCases.md)
