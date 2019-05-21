@@ -110,15 +110,21 @@ In the logical component we find the QR class which will be responsible for mana
 ### Data storage
 
 The storage of data will have as function to obtain the information of the registries, of the vouchers and others. We present 2 classes which once the data is delivered is parsed and then save it, here we can make queries and others.
- ![dataStorage](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/Package%20Logic(corregido).png)
+ ![dataStorage](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/Package%20Data_Storage.png)
 
-
+### Deploy
+The Deploy component will be in charge of sending the voucher information to SUNATs Data Base so the transaction will be legally completed and stored.
+ ![dataStorage](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/Package%20Deploy.png)
 
 ### Interaction between components
 
+#### Add New Business
 ![Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/IMG_0045.jpg)
-![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/IMG_0046.jpg)
+#### Generate Voucher
 ![GenerateVoucher](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/IMG_0044.jpg)
+#### Log In as Business
+![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/IMG_0046.jpg)
+
 
 # FAQ
 
