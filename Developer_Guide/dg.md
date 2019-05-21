@@ -18,26 +18,26 @@ This section will try to recreate the Yape UI as close as possible, Yape Negocio
 
 ### Fernando Socualaya: Register section UI
 
-In this section the UI will be made for the part of the registry that the owner will have to do.
+In this section the UI will be made for the part of the registry that the owner will have to do. The owner must be registered to be able to access an account and that his collaborators have access.
 
 - v1.1 Add forms.
 - v1.2 Add register button.
 
 ### Sergio Carbone: Entity picker
 
-In this section you can select if it is a collaborator or an owner.
+In this section you can select if it is a collaborator or an owner. You must enter as a collaborator or owner to upload the information of each company respectively. It was implemented in this way since you can own one company and collaborate with another.
 
 - v1.1 Add button component.
 - v1.2 Add pickers.
 
 ### Sergio Carbone: Collaborator UI feature.
 
-The section of the UI in which the collaborator can generate charges.
+The section of the UI in which the collaborator can generate charges. Collaborators can choose between ticket and invoice depending on what is required, and will proceed in a different way depending on what has been selected.
 
 - v1.1 Add picker Ticket/invoice.
 - v1.2 Add inputs.
-- v1.3 Add get back button.
-- v1.4 Add pay button.
+- v1.3 Add get back/pay button.
+- v1.4 Add display Qr.
 
 ### Antonio Toche: Owner UI feature.
 
@@ -45,11 +45,12 @@ Similar to collaborator feature the owner can generate charges, and manage sessi
 
 - v1.1 Add picker Ticket/invoice.
 - v1.2 Add inputs.
-- v1.3 Add pay/get back/ Notifications/ Collaborators/ Movements/ Log Out buttons.
+- v1.3 Add pay/get back/ Notifications/ Collaborators/ Movements/ Settings/ Profile/ Log Out buttons.
+- v1.4 Add display Qr.
 
 ### Fernando Socualaya: Qr code UI feature
 
-Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively.(See anexx D)
+Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively. The qr is needed to make the payment effective, this way you avoid having a contact section and the transfer is faster.
 
 - v1.1 Add Qr interface.
 
@@ -92,12 +93,15 @@ In order to have something to store the data sent, a database will be necessary.
 <!-- ![Architecture](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/IMG_0040.jpg) -->
 
 ### Architecture Diagram
+
 ![Architecture Diagram](res/architecture_diagram.png)
+
 ### Components
 
 ### Interaction between components
-![Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/1.jpg) 
-![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/2.jpg) 
+
+![Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/1.jpg)
+![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/2.jpg)
 
 # FAQ
 
@@ -131,6 +135,7 @@ In order to have something to store the data sent, a database will be necessary.
     * Settings: settings of the business or owner.
     * ORM: Object-relational mapping
     * Database: data save.
+    * RUC: Unique Taxpayers Registry
     * Querys: data petition.
     * Log out: session ends.
     * Get back: back to the last layout.
@@ -138,4 +143,3 @@ In order to have something to store the data sent, a database will be necessary.
     * Inputs: entry of data.
     * Forms: entry of data for registration purposes.
     * SUNAT: Entity that collects taxes.
-    
