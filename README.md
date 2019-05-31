@@ -2,7 +2,16 @@
 
 YapeTicket provides a new feature to the Yape platform, making it able to generate tickets and invoices after purchasing a product.
 
-## Development Team:
+##New features
+
+```
+Boleta
+```
+```
+Factura
+```
+
+## Authors
 
 - Carbone, Sergio (@Xrok)
 - Chávez, José (@JoseChavez98) 
