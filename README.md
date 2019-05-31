@@ -1,6 +1,6 @@
-# YapeTicket
+# Yape Negocios
 
-YapeTicket provides a new feature to the Yape platform, making it able to generate tickets and invoices after purchasing a product.
+Yape Negocios provides a new feature to Yape, making it able to generate tickets and invoices after purchasing a product.
 
 ##New features
 
