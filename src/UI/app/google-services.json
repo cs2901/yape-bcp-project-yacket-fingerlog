@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:584901423908:android:4f268f53aa30c10c",
+        "android_client_info": {
+          "package_name": "com.company.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584901423908-updh8q347dmn4vgannjh1sb657883a0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD65qnGY1sGHhePnGNKR0dQPuF5Zov2MjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584901423908-updh8q347dmn4vgannjh1sb657883a0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:584901423908:android:ca98a7390137163b",
         "android_client_info": {
           "package_name": "com.company.yapenegocios"
