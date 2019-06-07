@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://yape-negocio.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">584901423908</string>
     <string name="google_api_key" translatable="false">AIzaSyD65qnGY1sGHhePnGNKR0dQPuF5Zov2MjM</string>
-    <string name="google_app_id" translatable="false">1:584901423908:android:ca98a7390137163b</string>
+    <string name="google_app_id" translatable="false">1:584901423908:android:ebe998e866db5406</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD65qnGY1sGHhePnGNKR0dQPuF5Zov2MjM</string>
     <string name="google_storage_bucket" translatable="false">yape-negocio.appspot.com</string>
     <string name="project_id" translatable="false">yape-negocio</string>

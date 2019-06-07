@@ -9,6 +9,7 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/antoniotoche/.gradl
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/51e7f56267cd8db6254f8c53913301f4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.firebaseui:firebase-ui-database:5.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/c2191b4542f7cca302ee4863e9630944/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/3a19ab9e2d6f7bd12f01311ade0bb923/AndroidManifest.xml:15:1-36:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/ffafdc9c77834663a81ab659b1490d9a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/595e015ffbf4c660b485a37a1cc0f984/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/59e339336184b790f3940aea991fb9a9/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/1797e77e52c4a7c3054dc907ac5e6138/AndroidManifest.xml:2:1-19:12
@@ -17,7 +18,6 @@ MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/antoni
 MERGED from [com.android.support:support-v4:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/e776bf81c8d7cebb2568cf489c91bb1f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/1ed88535bd4663f50a51bdaa51a8252c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/809fe448def10ab53f4579682f1c1869/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/ffafdc9c77834663a81ab659b1490d9a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/44756fc56e6cc23fa8290a1509372669/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/03d271e36edc12c3ec67a2a906736afa/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/3b5480723b9cb59ccfa55d6653dab95b/AndroidManifest.xml:17:1-22:12
@@ -50,7 +50,7 @@ INJECTED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-finge
 INJECTED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:2:1-23:12
 INJECTED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:3:52-86
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:4:5-36
 		INJECTED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -74,7 +74,7 @@ MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/antoniotoche/.
 	android:name
 		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:7:5-22:19
+ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:6:5-21:19
 MERGED from [com.android.support:design:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/f625b119f8896d03c9df971cfd6e9fdb/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/f625b119f8896d03c9df971cfd6e9fdb/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/51e7f56267cd8db6254f8c53913301f4/AndroidManifest.xml:9:5-20
@@ -98,33 +98,33 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/antoniotoche
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/8c178531814c7989213241c8d4900fb6/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:9:9-41
 	tools:ignore
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:13:60-99
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:12:60-99
 	android:roundIcon
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:13:9-59
-activity#com.company.yapenegocios.MainActivity
-ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:15:5-21:16
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:12:9-59
+activity#com.utec.yapenegocios.MainActivity
+ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:15:15-43
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:16:9-20:25
+ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:17:13-65
+ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:17:21-62
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:19:13-73
+ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:19:23-70
+		ADDED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/UI/app/src/main/AndroidManifest.xml
@@ -139,6 +139,8 @@ MERGED from [com.firebaseui:firebase-ui-database:5.0.0] /Users/antoniotoche/.gra
 MERGED from [com.firebaseui:firebase-ui-database:5.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/c2191b4542f7cca302ee4863e9630944/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/3a19ab9e2d6f7bd12f01311ade0bb923/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/3a19ab9e2d6f7bd12f01311ade0bb923/AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/ffafdc9c77834663a81ab659b1490d9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/ffafdc9c77834663a81ab659b1490d9a/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/595e015ffbf4c660b485a37a1cc0f984/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/595e015ffbf4c660b485a37a1cc0f984/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/59e339336184b790f3940aea991fb9a9/AndroidManifest.xml:20:5-44
@@ -155,8 +157,6 @@ MERGED from [com.android.support:support-fragment:28.0.0] /Users/antoniotoche/.g
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/1ed88535bd4663f50a51bdaa51a8252c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/809fe448def10ab53f4579682f1c1869/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/809fe448def10ab53f4579682f1c1869/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/ffafdc9c77834663a81ab659b1490d9a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/ffafdc9c77834663a81ab659b1490d9a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/44756fc56e6cc23fa8290a1509372669/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/44756fc56e6cc23fa8290a1509372669/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/03d271e36edc12c3ec67a2a906736afa/AndroidManifest.xml:20:5-44

@@ -79,6 +79,43 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584901423908:android:ebe998e866db5406",
+        "android_client_info": {
+          "package_name": "com.utec.yapenegocios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584901423908-dbckbrall5ibk1s8cc22t83out8ddm5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.utec.yapenegocios",
+            "certificate_hash": "b6b39f30aa07362c9d393c3dd31f874a9e0aa0ee"
+          }
+        },
+        {
+          "client_id": "584901423908-updh8q347dmn4vgannjh1sb657883a0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD65qnGY1sGHhePnGNKR0dQPuF5Zov2MjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584901423908-updh8q347dmn4vgannjh1sb657883a0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

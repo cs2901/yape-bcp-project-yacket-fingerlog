@@ -1,4 +1,4 @@
-com.company.yapenegocios
+com.utec.yapenegocios
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1139,6 +1139,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id dniCollaborator
 id edit_query
 id email
 id end
@@ -1377,7 +1378,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string RUC
@@ -1425,6 +1425,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string colaborador
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
