@@ -1,35 +1,25 @@
 package com.company.yapenegocios;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.ViewGroup;
-
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
 
 public class MainActivity extends AppCompatActivity{
-    RecyclerView recyclerView;
-    private  static final  String TAG = "fallo";
-    DatabaseReference databaseReference;
-    FirebaseRecyclerOptions<Movement> options;
-    FirebaseRecyclerAdapter<Movement, MovementViewHolder> adapter;
+   // RecyclerView recyclerView;
+   // private  static final  String TAG = "fallo";
+    //DatabaseReference databaseReference;
+   // FirebaseRecyclerOptions<Movement> options;
+   // FirebaseRecyclerAdapter<Movement, MovementViewHolder> adapter;
 
     @Override
     protected void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.register);
 
-        recyclerView = findViewById(R.id.rvTransactions);
+     //   recyclerView = findViewById(R.id.rvTransactions);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
+       // FirebaseDatabase database = FirebaseDatabase.getInstance();
 
-
+/*
         Query query = FirebaseDatabase.getInstance()
                 .getReference()
                 .child("movimientos")
@@ -56,9 +46,9 @@ public class MainActivity extends AppCompatActivity{
         };
 
         recyclerView.setAdapter(adapter);
-        adapter.startListening();
+        adapter.startListening();*/
     }
-
+/*
 
     @Override
     protected void onDestroy() {
@@ -70,21 +60,6 @@ public class MainActivity extends AppCompatActivity{
     protected void onStart(){
         super.onStart();
         Log.e("OnStart", "OnStart");
-        //adapter.startListening();
-        /*ValueEventListener postListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Movement movement = dataSnapshot.getValue(Movement.class);
-                Log.w(String.valueOf(movement.getMonto()),String.valueOf(movement.getFecha()));
-                System.out.println("sadasas");
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                Log.w(TAG,"no leyo.", databaseError.toException());
-            }
-        };
-        databaseReference.addValueEventListener(postListener);*/
     }
 
     @Override
@@ -96,5 +71,5 @@ public class MainActivity extends AppCompatActivity{
     protected void onResume(){
         super.onResume();
     }
-
+*/
 }

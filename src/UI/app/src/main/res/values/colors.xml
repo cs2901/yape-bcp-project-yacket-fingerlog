@@ -6,4 +6,5 @@
     <color name="background_color">#fff</color>
     <color name="border_color">#000</color>
     <color name="hint_color">#57000000</color>
+    <color name="menuColor">#660066</color>
 </resources>
