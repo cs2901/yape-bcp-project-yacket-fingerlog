@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">yape-negocios</string>
+    <string name="app_name">Yape</string>
+    <string name="registro">Registro</string>
+    <string name="menu">Menu</string>
+    <string name="movimientos">Movimientos</string>
+    <string name="notificaciones">Notificaciones</string>
 </resources>
