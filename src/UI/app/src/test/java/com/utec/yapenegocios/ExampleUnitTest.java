@@ -1,4 +1,4 @@
-package com.example.yape_negocios;
+package com.utec.yapenegocios;
 
 import org.junit.Test;
 
