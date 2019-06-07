@@ -5,7 +5,7 @@ public class Movement {
     public int monto;
     public String por;
 
-    public Movement(String usuarios, String lastName, String roll) {}
+    public Movement() {}
 
     public Movement(int fecha, int monto, String por) {
         this.fecha = fecha;

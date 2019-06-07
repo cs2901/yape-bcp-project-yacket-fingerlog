@@ -3,72 +3,80 @@ package com.company.yapenegocios;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.Query;
 
 public class MainActivity extends AppCompatActivity{
     RecyclerView recyclerView;
     private  static final  String TAG = "fallo";
     DatabaseReference databaseReference;
     FirebaseRecyclerOptions<Movement> options;
-    FirebaseRecyclerAdapter<Movement,MovementsAdapter> adapter;
+    FirebaseRecyclerAdapter<Movement, MovementViewHolder> adapter;
+
     @Override
     protected void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
         setContentView(R.layout.activity_main);
 
-        recyclerView = (RecyclerView)findViewById(R.id.rvTransactions);
-        recyclerView.setHasFixedSize(true);
+        recyclerView = findViewById(R.id.rvTransactions);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("movimientos").child("prueba");
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+
+
+        Query query = FirebaseDatabase.getInstance()
+                .getReference()
+                .child("movimientos")
+                .limitToLast(50);
 
         options = new FirebaseRecyclerOptions.Builder<Movement>()
-                .setQuery(databaseReference,Movement.class).build();
+                        .setQuery(query, Movement.class)
+                        .build();
 
-        adapter = new FirebaseRecyclerAdapter<Movement, MovementsAdapter>(options) {
+
+        adapter = new FirebaseRecyclerAdapter<Movement, MovementViewHolder>(options) {
             @Override
-            protected void onBindViewHolder(@NonNull MovementsAdapter holder, int position, @NonNull Movement model) {
-                holder.t1.setText(model.getMonto());
+            protected void onBindViewHolder(@NonNull MovementViewHolder holder, int position, @NonNull Movement model) {
+                holder.bindTo(model);
             }
 
             @NonNull
             @Override
-            public MovementsAdapter onCreateViewHolder(@NonNull ViewGroup parent, int i) {
-                View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_movement,parent,false);
-                return new MovementsAdapter(view);
+            public MovementViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int i) {
+                return MovementViewHolder.create(parent);
             }
 
 
         };
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(getApplicationContext(),2);
-        recyclerView.setLayoutManager(gridLayoutManager);
-        adapter.startListening();
         recyclerView.setAdapter(adapter);
+        adapter.startListening();
     }
 
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        adapter.stopListening();
+    }
+
+    @Override
     protected void onStart(){
         super.onStart();
-        ValueEventListener postListener = new ValueEventListener() {
+        Log.e("OnStart", "OnStart");
+        //adapter.startListening();
+        /*ValueEventListener postListener = new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Movement movement = dataSnapshot.getValue(Movement.class);
                 Log.w(String.valueOf(movement.getMonto()),String.valueOf(movement.getFecha()));
-                System.out.println("hola 1");
+                System.out.println("sadasas");
             }
 
             @Override
@@ -76,13 +84,13 @@ public class MainActivity extends AppCompatActivity{
                 Log.w(TAG,"no leyo.", databaseError.toException());
             }
         };
-        databaseReference.addValueEventListener(postListener);
+        databaseReference.addValueEventListener(postListener);*/
     }
 
     @Override
     protected  void onStop(){
-        adapter.stopListening();
         super.onStop();
+
     }
     @Override
     protected void onResume(){
