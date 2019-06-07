@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">Yape</string>
+    <string name="app_name" translatable="false">Yape</string>
     <string name="registro">Registro</string>
     <string name="menu">Menu</string>
     <string name="movimientos">Movimientos</string>
     <string name="notificaciones">Notificaciones</string>
     <string name="razon_social">Razon social</string>
-    <string name="RUC">R.U.C</string>
+    <string name="RUC" translatable="false">R.U.C</string>
     <string name="nCuenta">Nº de cuenta</string>
-    <string name="direccion">Direccion</string>
+    <string name="direccion" translatable="false">Direccion</string>
     <string name="email">Email</string>
     <string name="rubro">Rubro</string>
     <string name="numero">Tu numero</string>
     <string name="textAddmore">Añade los dni de tus colaboradores</string>
-    <string name="colaborador">Dni de tu colaborador</string>
+    <string name="colaborador" translatable="false">Dni de tu colaborador</string>
 
 </resources>
