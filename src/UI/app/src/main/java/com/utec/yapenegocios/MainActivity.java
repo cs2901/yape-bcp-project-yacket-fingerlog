@@ -13,7 +13,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
-public class MainActivity extends AppCompatActivity{
+public class    MainActivity extends AppCompatActivity{
      RecyclerView recyclerView;
      private  static final  String TAG = "fallo";
     DatabaseReference databaseReference;

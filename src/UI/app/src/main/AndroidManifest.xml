@@ -13,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SelectBusinessActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ManageCollaboratorActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SelectBusinessActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
