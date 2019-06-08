@@ -6,6 +6,9 @@
     <string name="notificaciones">Notificaciones</string>
     <string name="razon_social">Razon social</string>
     <string name="RUC">R.U.C</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="perfil">Perfil</string>
+    <string name="cerrar"> Cerrar sesion</string>
     <string name="nCuenta">Nº de cuenta</string>
     <string name="direccion">Direccion</string>
     <string name="email">Email</string>
@@ -13,5 +16,11 @@
     <string name="numero">Tu numero</string>
     <string name="textAddmore">Añade los dni de tus colaboradores</string>
     <string name="colaborador">Dni de tu colaborador</string>
+    <string name="User"> Hola User</string>
+    <string name="ingresa">Ingresa tu clave</string>
+    <string name="resgistrate">Registrate</string>
+    <string name="olvide">Olvide contraseña</string>
+    <string name="nDni">Nº de DNI</string>
+    <string name="arrow">ARROW</string>
 
 </resources>

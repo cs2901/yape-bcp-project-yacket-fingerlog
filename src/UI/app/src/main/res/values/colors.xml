@@ -7,4 +7,5 @@
     <color name="border_color">#000</color>
     <color name="hint_color">#57000000</color>
     <color name="menuColor">#660066</color>
+    <color name="yapeButtons">#00caa4</color>
 </resources>

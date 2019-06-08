@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.movements);
 
-           recyclerView = findViewById(R.id.rvTransactions);
+        recyclerView = findViewById(R.id.rvTransactions);
 
          FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-    @Override
+  @Override
     protected void onDestroy() {
         super.onDestroy();
         adapter.stopListening();
