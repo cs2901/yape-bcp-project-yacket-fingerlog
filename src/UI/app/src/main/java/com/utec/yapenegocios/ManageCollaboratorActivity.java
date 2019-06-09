@@ -1,11 +1,13 @@
 package com.utec.yapenegocios;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -41,14 +43,14 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
             protected void onBindViewHolder(@NonNull ManageCollaboratorViewHolder holder, int position, @NonNull final Collaborator model) {
 
                 holder.collaboratorName.setText(model.getName());
-//                holder.itemView.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View v) {
-//                        Intent intent =  new Intent(ManageCollaboratorActivity.this,Activity.class);
-//                        intent.putExtra("collaboratorname",model.getName());
-//                        startActivity(intent);
-//                    }
-//                });
+                holder.itemView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent =  new Intent(ManageCollaboratorActivity.this,DeepCollaboratorActivity.class);
+                        intent.putExtra("collaboratorname",model.getName());
+                        startActivity(intent);
+                    }
+                });
 
 
 

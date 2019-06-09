@@ -13,5 +13,6 @@
     <string name="numero">Tu numero</string>
     <string name="textAddmore">Añade los dni de tus colaboradores</string>
     <string name="colaborador">Dni de tu colaborador</string>
+    <string name="addcolaborador">Anadir Colaborador</string>
 
 </resources>
