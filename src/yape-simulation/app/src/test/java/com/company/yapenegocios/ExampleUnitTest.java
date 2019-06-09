@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.company.yapenegocios;
 
 import org.junit.Test;
 

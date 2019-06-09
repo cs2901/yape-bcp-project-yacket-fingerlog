@@ -1,14 +1,13 @@
-package com.example.myapplication;
+package com.company.yapenegocios;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class PayActivity extends AppCompatActivity {
+public class InvoiceFillActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pay);
+        setContentView(R.layout.activity_invoice_fill);
     }
-
 }
