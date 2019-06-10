@@ -15,6 +15,7 @@
 # Created by https://www.gitignore.io/api/android,androidstudio
 # Edit at https://www.gitignore.io/?templates=android,androidstudio
 
+*.vscode
 ### Android ###
 # Built application files
 *.apk
