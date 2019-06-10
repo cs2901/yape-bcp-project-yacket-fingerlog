@@ -39,9 +39,11 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.register);
 
-        mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference("Register");
         oDatabase = FirebaseDatabase.getInstance().getReference("OwnerCollaborators");
+
+        System.out.println(mDatabase);
+        System.out.println(oDatabase);
 
         nameField = findViewById(R.id.nameBusiness);
         rucField = findViewById(R.id.ruc);
@@ -59,8 +61,8 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View v) {
                 submitPost();
                 submitPost2();
-                openLoginActivity();
                 makeText(getApplicationContext(),toast, LENGTH_LONG).show();
+                openLoginActivity();
             }
         });
 
@@ -99,7 +101,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         final String dniCollaborator = colaboratorField.getText().toString();
         final String PIN = PINField.getText().toString();
-        final String yourNumber = numberPhoneField.getText().toString();
+
 
         if(!TextUtils.isEmpty(PIN)){
             OwnerCollaborators registerOwner = new OwnerCollaborators(dniCollaborator,"Colaborador");

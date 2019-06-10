@@ -37,6 +37,7 @@ public class BusinessViewHolder extends RecyclerView.Adapter<BusinessViewHolder.
         holder.t1.setText(mListView1.get(i));
         holder.t2.setText(mListView2.get(i));
 
+
     }
 
 
