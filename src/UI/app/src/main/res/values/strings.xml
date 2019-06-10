@@ -24,5 +24,7 @@
     <string name="arrow">ARROW</string>
     <string name="PIN">PIN</string>
     <string name="establecimientos">Tus establecimientos</string>
+    <string name="cobros">Realizar cobros</string>
+
 
 </resources>
