@@ -15,7 +15,7 @@
         >
 
         <ImageButton
-            android:id="@+id/menuUser"
+            android:id="@+id/searchImageButton"
             android:layout_width="wrap_content"
             android:layout_marginTop="25dp"
             android:layout_marginLeft="15dp"

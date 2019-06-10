@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
     String payMethod;
     int i = 0;
     Button ticket,invoice,payMent;
+    ImageButton menuButton;
     TextInputEditText items,amount;
     String nameBusiness,email,  ruc,direction,counting;
     @Override
@@ -43,6 +45,7 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
         items = findViewById(R.id.items);
         amount = findViewById(R.id.amount);
 
+        menuButton = findViewById(R.id.searchImageButton);
         Payments = FirebaseDatabase.getInstance().getReference("Payments");
         System.out.println("References ");
         System.out.println(Payments);
@@ -69,6 +72,14 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
         });
 
 
+        menuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ColaboratorAccess.this,menuActivity.class);
+                intent.putExtra(ownerpin,Pin);
+                startActivity(intent);
+            }
+        });
 
         payMent.setOnClickListener(new View.OnClickListener() {
             @Override
