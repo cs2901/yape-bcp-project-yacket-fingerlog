@@ -36,7 +36,7 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
         extracDatafromIntent();
         System.out.println("colaborator acces ");
         System.out.println(Pin);
-        reference = FirebaseDatabase.getInstance().getReference().child("Register").child(Pin);
+        reference = FirebaseDatabase.getInstance().getReference().child("Register").child(Pin).child("1");
         ticket = findViewById(R.id.boleta);
         invoice = findViewById(R.id.factura);
         payMent = findViewById(R.id.pagar);
