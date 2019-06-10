@@ -11,7 +11,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -20,9 +19,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-
-public class ColaboratorAccess extends AppCompatActivity implements View.OnClickListener{
+public class ColaboratorAccessActivity extends AppCompatActivity implements View.OnClickListener{
 
     private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
     DatabaseReference Payments,reference;
@@ -75,7 +72,7 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ColaboratorAccess.this,menuActivity.class);
+                Intent intent = new Intent(ColaboratorAccessActivity.this,menuActivity.class);
                 intent.putExtra(ownerpin,Pin);
                 startActivity(intent);
 
@@ -98,9 +95,8 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
                     Payments pay = new Payments(Items,method,Amount,nameBusiness,ruc, email, direction);
                     Payments.child(counting).setValue(pay);
                 }
-                Intent intent = new Intent(ColaboratorAccess.this,displayQR.class);
+                Intent intent = new Intent(ColaboratorAccessActivity.this, displayqrActivity.class);
 
-                //String dataForQR = "YP Business,item1,50,71233026,fer.sp.98@gmail.com, silva 165";
                 String dataForQR = nameBusiness+','+items.getText().toString()+','+amount.getText().toString()+','+email+','+direction;
                 intent.putExtra("data",dataForQR);
 
@@ -145,7 +141,7 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
 
 
     public static Intent makeIntenet(Context context,String Pin){
-        Intent intent = new Intent(context,ColaboratorAccess.class);
+        Intent intent = new Intent(context, ColaboratorAccessActivity.class);
         intent.putExtra(ownerpin,Pin);
         return intent;
     }

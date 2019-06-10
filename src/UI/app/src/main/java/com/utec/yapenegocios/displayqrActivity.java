@@ -17,7 +17,7 @@ import com.google.zxing.WriterException;
 import androidmads.library.qrgenearator.QRGContents;
 import androidmads.library.qrgenearator.QRGEncoder;
 
-public class displayQR extends AppCompatActivity {
+public class displayqrActivity extends AppCompatActivity {
     String TAG = "QR Generator";
     ImageView qrImage;
 

@@ -16,9 +16,9 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity android:name=".ManageCollaboratorActivity"></activity>
-        <activity android:name=".displayQR"/>
+        <activity android:name=".displayqrActivity"/>
         <activity android:name=".DeepCollaboratorActivity" />
-        <activity android:name=".ColaboratorAccess"/>
+        <activity android:name=".ColaboratorAccessActivity"/>
         <activity android:name=".menuActivity"/>
         <activity android:name=".MovementsActivity"/>
         <activity android:name=".RegisterActivity"/>

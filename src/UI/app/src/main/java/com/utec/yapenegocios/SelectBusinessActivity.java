@@ -60,7 +60,7 @@ public class SelectBusinessActivity extends AppCompatActivity {
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent =  new Intent(SelectBusinessActivity.this,ColaboratorAccess.class);
+                        Intent intent =  new Intent(SelectBusinessActivity.this, ColaboratorAccessActivity.class);
                         intent.putExtra(ownerpin,pin);
                         startActivity(intent);
                     }
