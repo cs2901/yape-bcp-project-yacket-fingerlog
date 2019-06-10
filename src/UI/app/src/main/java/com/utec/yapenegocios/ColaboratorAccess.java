@@ -15,9 +15,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.time.ZonedDateTime;
-import java.util.Date;
-
 public class ColaboratorAccess extends AppCompatActivity {
 
     private static final String PIN2 = "con.utec.yapenegocios.PIN";
@@ -52,10 +49,6 @@ public class ColaboratorAccess extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(ColaboratorAccess.this,displayQR.class);
 
-                /* Get Date Time */
-
-                //Date date = new Date(System.currentTimeMillis());
-
                 String dataForQR = "YP Business,item1,50,71233026,fer.sp.98@gmail.com, silva 165";
                 intent.putExtra("data",dataForQR);
 
@@ -68,11 +61,6 @@ public class ColaboratorAccess extends AppCompatActivity {
         String nameBusiness = dataSnapshot.child("nameBusiness").getValue().toString();
         String rolfOf = dataSnapshot.child("rolOf").getValue().toString();
         String email = dataSnapshot.child("email").getValue().toString();
-
-        System.out.println("DATOS COLABORATOR");
-        System.out.println(nameBusiness);
-        System.out.println(rolfOf);
-        System.out.println(email);
     }
 
     private void extracDatafromIntent() {
