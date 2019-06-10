@@ -52,7 +52,6 @@ public class MovementsActivity extends AppCompatActivity{
                 return MovementViewHolder.create(parent);
             }
 
-
         };
 
         recyclerView.setAdapter(adapter);
