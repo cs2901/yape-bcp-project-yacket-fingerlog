@@ -30,15 +30,6 @@ In this section you can select if it is a collaborator or an owner. You must ent
 - v1.1 Add button component.
 - v1.2 Add pickers.
 
-### Sergio Carbone: Collaborator UI feature.
-
-The section of the UI in which the collaborator can generate charges. Collaborators can choose between ticket and invoice depending on what is required, and will proceed in a different way depending on what has been selected.
-
-- v1.1 Add picker Ticket/invoice.
-- v1.2 Add inputs.
-- v1.3 Add get back/pay button.
-- v1.4 Add display Qr.
-
 ### Antonio Toche: Owner UI feature.
 
 Similar to collaborator feature the owner can generate charges, and manage session. Here the owner can create and remove a new collaborator, the owner will be able to see the last entry of each one of his collaborators thanks to the section of notifications and also he will be able to see what contributed by each collaborator.
@@ -115,8 +106,8 @@ The storage of data will have as function to obtain the information of the regis
 
  ![dataStorage](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/Package%20Data_Storage.png)
 
-### Deploy
-The Deploy component will be in charge of sending the voucher information to SUNATs Data Base so the transaction will be legally completed and stored.
+### Trigger
+The Trigger component will be in charge of sending the voucher information to SUNATs Data Base so the transaction will be legally completed and stored.
 
  ![dataStorage](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/Package%20Deploy.png)
 
