@@ -1,16 +1,16 @@
 package com.utec.yapenegocios;
 
 public class Collaborator {
-    public String name;
+    public String dniCollaborator;
 
     public Collaborator() {
     }
 
     public Collaborator(String name) {
-        this.name = name;
+        this.dniCollaborator = name;
     }
 
     public String getName() {
-        return name;
+        return dniCollaborator;
     }
 }

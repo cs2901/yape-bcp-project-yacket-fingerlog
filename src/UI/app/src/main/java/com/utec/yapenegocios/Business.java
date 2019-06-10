@@ -1,12 +1,12 @@
 package com.utec.yapenegocios;
 
 public class Business {
-    public String name;
-    public String rol;
+    public String nameBusiness;
+    public String rolOf;
 
     public Business(String name, String rol) {
-        this.name = name;
-        this.rol = rol;
+        this.nameBusiness = name;
+        this.rolOf = rol;
     }
 
     public Business() {
@@ -14,12 +14,11 @@ public class Business {
     }
 
     public String getName() {
-        return name;
+        return nameBusiness;
     }
 
-
     public String getRol() {
-        return rol;
+        return rolOf;
     }
 
 }

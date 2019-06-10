@@ -1,11 +1,13 @@
 package com.utec.yapenegocios;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -22,6 +24,7 @@ public class SelectBusinessActivity extends AppCompatActivity {
     private FirebaseRecyclerOptions<Business>options;
     private FirebaseRecyclerAdapter<Business,SelectBusinessViewHolder>adapter;
     private DatabaseReference databaseReference;
+    private String pin;
 
 
     @Override
@@ -31,8 +34,12 @@ public class SelectBusinessActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rvbusiness);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+//        Intent intent = getIntent();
+//        pin = intent.getStringExtra("ownerpin");
+        pin="222222";
         arrayList = new ArrayList<Business>();
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("business");
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Register").child(pin);
+        System.out.println(databaseReference);
         databaseReference.keepSynced(true);
         options = new FirebaseRecyclerOptions.Builder<Business>().setQuery(databaseReference,Business.class).build();
 
@@ -43,15 +50,14 @@ public class SelectBusinessActivity extends AppCompatActivity {
 
                 holder.businessName.setText(model.getName());
                 holder.businessRol.setText(model.getRol());
-//                holder.itemView.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View v) {
+                holder.itemView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
 //                        Intent intent =  new Intent(SelectBusinessActivity.this,Activity.class);
-//                        intent.putExtra("businessname",model.getName());
-//                        intent.putExtra("businessrol",model.getRol());
+//                        intent.putExtra("ownerid",pin);
 //                        startActivity(intent);
-//                    }
-//                });
+                    }
+                });
 
 
 

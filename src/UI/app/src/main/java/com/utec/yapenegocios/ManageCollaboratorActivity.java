@@ -24,6 +24,7 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
     private FirebaseRecyclerOptions<Collaborator> options;
     private FirebaseRecyclerAdapter<Collaborator,ManageCollaboratorViewHolder> adapter;
     private DatabaseReference databaseReference;
+    private String pin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,11 +33,13 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rvcollaborator);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        //Intent getIntent = getIntent();
+        //pin = getIntent.getStringExtra("ownerid");
+        pin = "333333";
         arrayList = new ArrayList<Collaborator>();
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("collaborator"); // complete!!!!
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("OwnerCollaborators").child(pin); // complete!!!!
         databaseReference.keepSynced(true);
         options = new FirebaseRecyclerOptions.Builder<Collaborator>().setQuery(databaseReference,Collaborator.class).build();
-
 
         adapter = new FirebaseRecyclerAdapter<Collaborator, ManageCollaboratorViewHolder>(options) {
             @Override
@@ -47,7 +50,9 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Intent intent =  new Intent(ManageCollaboratorActivity.this,DeepCollaboratorActivity.class);
+                        intent.putExtra("ownerid",pin);
                         intent.putExtra("collaboratorname",model.getName());
+
                         startActivity(intent);
                     }
                 });

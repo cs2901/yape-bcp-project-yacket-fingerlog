@@ -13,11 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ChargeActivity"></activity>
         <activity android:name=".DeepCollaboratorActivity" />
-        <activity android:name=".SelectBusinessActivity" />
+        <activity android:name=".ManageCollaboratorActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ManageCollaboratorActivity">
+        <activity android:name=".SelectBusinessActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
