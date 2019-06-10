@@ -39,7 +39,7 @@
             android:orientation="vertical">
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/Name"
+                android:id="@+id/nameBusiness"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
@@ -47,12 +47,13 @@
                 android:background="@drawable/my_border"
                 android:hint="@string/razon_social"
                 android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/RUC"
+                android:id="@+id/ruc"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
@@ -61,6 +62,7 @@
                 android:hint="@string/RUC"
                 android:inputType="number"
                 android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
@@ -74,11 +76,12 @@
                 android:hint="@string/nCuenta"
                 android:inputType="number"
                 android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/address"
+                android:id="@+id/direction"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
@@ -86,6 +89,7 @@
                 android:background="@drawable/my_border"
                 android:hint="@string/direccion"
                 android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
@@ -98,31 +102,35 @@
                 android:background="@drawable/my_border"
                 android:hint="@string/email"
                 android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/item"
+                android:id="@+id/PIN"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="25dp"
                 android:background="@drawable/my_border"
-                android:hint="@string/rubro"
+                android:hint="@string/PIN"
+                android:inputType="number"
                 android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/numberPhone"
+                android:id="@+id/yourNumber"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="25dp"
                 android:background="@drawable/my_border"
-                android:hint="@string/numero"
+                android:hint="@string/nDni"
                 android:inputType="phone"
                 android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
@@ -133,6 +141,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="25dp"
                 android:fontFamily="monospace"
+                android:paddingBottom="5dp"
                 android:text="@string/textAddmore"
                 android:textColor="@color/border_color"
                 android:textSize="20dp" />
@@ -141,10 +150,11 @@
                 android:id="@+id/floatingActionButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="180dp"
+                android:layout_marginLeft="160dp"
                 android:layout_marginTop="30dp"
+                android:background="@color/background_color"
                 android:clickable="true"
-                app:srcCompat="@color/colorPrimary" />
+                android:src="@drawable/add" />
 
             <android.support.design.widget.TextInputEditText
                 android:id="@+id/dniCollaborator"
@@ -158,32 +168,44 @@
                 android:textColor="@color/border_color"
                 android:textColorHint="@color/hint_color" />
 
-            <android.support.constraint.ConstraintLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <Button
-                    android:layout_width="100dp"
+                    android:id="@+id/onSubmit"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/my_border"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/yapeButtons"
+                    android:elevation="20dp"
+                    android:lineHeight="1dp"
                     android:text="Registrarse"
-                    android:textColor="@color/border_color"
-                    tools:layout_editor_absoluteX="88dp"
+                    android:textColor="@color/background_color"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="242dp"
                     tools:layout_editor_absoluteY="0dp" />
 
                 <Button
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/my_border"
+                    android:id="@+id/cancel_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:background="@color/yapeButtons"
+                    android:elevation="20dp"
                     android:text="Cancelar"
-                    android:textColor="@color/border_color"
-                    tools:layout_editor_absoluteX="230dp"
+                    android:textColor="@color/background_color"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="75dp"
                     tools:layout_editor_absoluteY="0dp" />
-            </android.support.constraint.ConstraintLayout>
+
+            </LinearLayout>
 
         </android.support.v7.widget.LinearLayoutCompat>
     </android.support.v4.widget.NestedScrollView>
+
+
 
 </RelativeLayout>
