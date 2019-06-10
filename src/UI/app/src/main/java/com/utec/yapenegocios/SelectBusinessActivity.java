@@ -120,5 +120,3 @@ public class SelectBusinessActivity extends AppCompatActivity {
         super.onResume();
     }
 }
-
-}

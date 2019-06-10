@@ -25,42 +25,6 @@ public Register(){}
         this.rolOf = "Owner";
     }
 
-    public void setNameBusiness(String nameBusiness) {
-        this.nameBusiness = nameBusiness;
-    }
-
-    public void setRuc(String ruc) {
-        this.ruc = ruc;
-    }
-
-    public void setnAccount(String nAccount) {
-        this.nAccount = nAccount;
-    }
-
-    public void setDirection(String direction) {
-        this.direction = direction;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setPIN(String PIN) {
-        this.PIN = PIN;
-    }
-
-    public void setYourNumber(String yourNumber) {
-        this.yourNumber = yourNumber;
-    }
-
-    public void setDniCollaborator(String dniCollaborator) {
-        this.dniCollaborator = dniCollaborator;
-    }
-
-    public void setRolOf(String rolOf) {
-        this.rolOf = rolOf;
-    }
-
     public String getName() {
         return nameBusiness;
     }
