@@ -21,9 +21,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class ColaboratorAccess extends AppCompatActivity implements View.OnClickListener{
 
-    private static final String PIN2 = "con.utec.yapenegocios.PIN";
+    private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
     DatabaseReference Payments,reference;
-    private String Pin;
+    private String Pin  ;
     String payMethod;
     int i = 0;
     Button ticket,invoice,payMent;
@@ -34,6 +34,8 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
         super.onCreate(saveInstanceState);
         setContentView(R.layout.make_payments);
         extracDatafromIntent();
+        System.out.println("colaborator acces ");
+        System.out.println(Pin);
         reference = FirebaseDatabase.getInstance().getReference().child("Register").child(Pin);
         ticket = findViewById(R.id.boleta);
         invoice = findViewById(R.id.factura);
@@ -115,13 +117,13 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
 
     private void extracDatafromIntent() {
         Intent intent = getIntent();
-        Pin = intent.getStringExtra(PIN2);
+        Pin = intent.getStringExtra(ownerpin);
     }
 
 
     public static Intent makeIntenet(Context context,String Pin){
         Intent intent = new Intent(context,ColaboratorAccess.class);
-        intent.putExtra(PIN2,Pin);
+        intent.putExtra(ownerpin,Pin);
         return intent;
     }
 

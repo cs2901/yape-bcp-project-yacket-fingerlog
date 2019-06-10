@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button sevenNumber;
     private Button eightNumber;
     private Button nineNumber;
-    public static final String EXTRA_TEXT = "com.utec.yapenegocios.EXTRA_NAME";
+    public static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
 
     ArrayList<String> arrayList;
     private static final String TAG = "answoer";
@@ -215,7 +215,7 @@ public class LoginActivity extends AppCompatActivity {
 
         System.out.println(loginIntro);
         Intent intent = new Intent(this,SelectBusinessActivity.class);
-        intent.putExtra(EXTRA_TEXT,loginIntro);
+        intent.putExtra(ownerpin,loginIntro);
         startActivity(intent);
 
     }

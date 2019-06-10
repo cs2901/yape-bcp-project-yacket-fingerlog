@@ -27,6 +27,7 @@ public class SelectBusinessActivity extends AppCompatActivity {
     private FirebaseRecyclerAdapter<Business,SelectBusinessViewHolder>adapter;
     private DatabaseReference databaseReference;
     private String pin;
+    private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
 
 
     @Override
@@ -36,10 +37,13 @@ public class SelectBusinessActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rvbusiness);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-//        Intent intent = getIntent();
-//        pin = intent.getStringExtra("ownerpin");
-        pin="222222";
+        Intent intent = getIntent();
+        pin = intent.getStringExtra(ownerpin);
         arrayList = new ArrayList<Business>();
+        System.out.println("pin");
+
+        System.out.println(pin);
+
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Register").child(pin);
         System.out.println(databaseReference);
         databaseReference.keepSynced(true);
@@ -55,9 +59,9 @@ public class SelectBusinessActivity extends AppCompatActivity {
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-//                        Intent intent =  new Intent(SelectBusinessActivity.this,Activity.class);
-//                        intent.putExtra("ownerid",pin);
-//                        startActivity(intent);
+                        Intent intent =  new Intent(SelectBusinessActivity.this,ColaboratorAccess.class);
+                        intent.putExtra(ownerpin,pin);
+                        startActivity(intent);
                     }
                 });
 
