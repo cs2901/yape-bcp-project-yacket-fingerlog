@@ -25,12 +25,13 @@ public class SelectBusinessActivity extends AppCompatActivity {
 
     private static final String TEXT_PIN = "con.utec.yapenegocios.PIN2";
     DatabaseReference reference;
-    ArrayList<String> LisName  = new ArrayList<>();
-    ArrayList<String> ListRol =new ArrayList<>();
+    ArrayList<String> LisName = new ArrayList<>();
+    ArrayList<String> ListRol = new ArrayList<>();
     private Button button;
     private String Pin;
+
     @Override
-    protected void onCreate(Bundle saveInstanceState){
+    protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.business);
 
@@ -39,9 +40,9 @@ public class SelectBusinessActivity extends AppCompatActivity {
         reference = FirebaseDatabase.getInstance().getReference().child("Register").child(Pin);
         System.out.println(reference);
 
-        button = (Button)findViewById(R.id.ButtonTo);
+        button = (Button) findViewById(R.id.ButtonTo);
 
-       reference.addValueEventListener(new ValueEventListener() {
+        reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 showData(dataSnapshot);
@@ -49,15 +50,15 @@ public class SelectBusinessActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(getApplicationContext(),databaseError.getMessage(),Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), databaseError.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = ColaboratorAccess.makeIntenet(SelectBusinessActivity.this,Pin);
-                intent.putExtra(TEXT_PIN,Pin);
+                Intent intent = ColaboratorAccess.makeIntenet(SelectBusinessActivity.this, Pin);
+                intent.putExtra(TEXT_PIN, Pin);
                 startActivity(intent);
             }
         });
@@ -77,9 +78,9 @@ public class SelectBusinessActivity extends AppCompatActivity {
         iniRecyclerView();
     }
 
-    private void iniRecyclerView(){
+    private void iniRecyclerView() {
         RecyclerView recyclerView = findViewById(R.id.rvBusiness);
-        BusinessViewHolder adapter = new BusinessViewHolder(LisName,ListRol);
+        BusinessViewHolder adapter = new BusinessViewHolder(LisName, ListRol);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -91,9 +92,9 @@ public class SelectBusinessActivity extends AppCompatActivity {
     }
 
 
-    public static Intent makeIntent(Context context, String PIN){
-        Intent intent = new Intent(context,SelectBusinessActivity.class);
-        intent.putExtra(TEXT_PIN,PIN);
+    public static Intent makeIntent(Context context, String PIN) {
+        Intent intent = new Intent(context, SelectBusinessActivity.class);
+        intent.putExtra(TEXT_PIN, PIN);
         return intent;
     }
 
@@ -103,19 +104,20 @@ public class SelectBusinessActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart(){
+    protected void onStart() {
         super.onStart();
         Log.e("OnStart", "OnStart");
     }
 
     @Override
-    protected  void onStop(){
+    protected void onStop() {
         super.onStop();
 
     }
+
     @Override
-    protected void onResume(){
+    protected void onResume() {
         super.onResume();
     }
 
-
+}
