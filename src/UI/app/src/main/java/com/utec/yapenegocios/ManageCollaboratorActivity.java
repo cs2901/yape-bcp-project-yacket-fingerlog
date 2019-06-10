@@ -33,9 +33,8 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rvcollaborator);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        //Intent getIntent = getIntent();
-        //pin = getIntent.getStringExtra("ownerid");
-        pin = "333333";
+        Intent getIntent = getIntent();
+        pin = getIntent.getStringExtra("ownerid");
         arrayList = new ArrayList<Collaborator>();
         databaseReference = FirebaseDatabase.getInstance().getReference().child("OwnerCollaborators").child(pin); // complete!!!!
         databaseReference.keepSynced(true);
