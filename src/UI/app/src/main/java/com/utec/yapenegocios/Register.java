@@ -25,10 +25,6 @@ public class Register{
         this.rolOf = "Owner";
     }
 
-<<<<<<< HEAD
-=======
- 
->>>>>>> antoniottUp
 
     public String getName() {
         return nameBusiness;

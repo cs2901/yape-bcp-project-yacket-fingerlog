@@ -214,7 +214,7 @@ public class LoginActivity extends AppCompatActivity {
         loginIntro = loginList(arrayList);
 
         System.out.println(loginIntro);
-        Intent intent = SelectBusinessActivity.makeIntent(LoginActivity.this,loginIntro);
+        Intent intent = new Intent(this,SelectBusinessActivity.class);
         intent.putExtra(EXTRA_TEXT,loginIntro);
         startActivity(intent);
 
