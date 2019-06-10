@@ -25,6 +25,7 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
     private FirebaseRecyclerAdapter<Collaborator,ManageCollaboratorViewHolder> adapter;
     private DatabaseReference databaseReference;
     private String pin;
+    private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +34,9 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rvcollaborator);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        Intent getIntent = getIntent();
-        pin = getIntent.getStringExtra("ownerid");
+        Intent intent = getIntent();
+        pin = intent.getStringExtra(ownerpin);
+        System.out.println(pin);
         arrayList = new ArrayList<Collaborator>();
         databaseReference = FirebaseDatabase.getInstance().getReference().child("OwnerCollaborators").child(pin); // complete!!!!
         databaseReference.keepSynced(true);

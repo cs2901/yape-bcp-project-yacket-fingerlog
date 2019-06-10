@@ -25,7 +25,7 @@ public class DeepCollaboratorActivity extends AppCompatActivity {
         pin = intent.getStringExtra("ownerid");
         pin2 = intent.getStringExtra("collaboratorname");
         textView = findViewById(R.id.tvcollaboratorelimination);
-        textView.setText(pin);
+        textView.setText(pin2);
 
     }
 

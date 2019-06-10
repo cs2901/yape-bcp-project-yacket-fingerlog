@@ -19,6 +19,9 @@ public class menuActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.menu);
 
+        Intent intent = getIntent();
+        pin= intent.getStringExtra(ownerpin);
+        System.out.println(pin);
         extracDatafromIntent();
         notifications = findViewById(R.id.notificaciones);
         colaborators = findViewById(R.id.colaboradores);

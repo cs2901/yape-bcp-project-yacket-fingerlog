@@ -14,13 +14,13 @@
         android:parentActivityName=".LoginActivity"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".menuActivity"></activity>
+        <activity android:name=".ManageCollaboratorActivity"></activity>
         <activity android:name=".DeepCollaboratorActivity" />
         <activity android:name=".ColaboratorAccess"/>
-        <activity android:name=".SelectBusinessActivity"/>
+        <activity android:name=".menuActivity"/>
         <activity android:name=".MovementsActivity"/>
         <activity android:name=".RegisterActivity"/>
-        <activity android:name=".ManageCollaboratorActivity" />
+        <activity android:name=".SelectBusinessActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
