@@ -1,5 +1,6 @@
 package com.utec.yapenegocios;
 
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -117,4 +118,4 @@ public class SelectBusinessActivity extends AppCompatActivity {
         super.onResume();
     }
 
-}
+
