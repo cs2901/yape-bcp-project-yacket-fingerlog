@@ -14,6 +14,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import in.mrasif.libs.easyqr.EasyQR;
 import in.mrasif.libs.easyqr.QRScanner;
 
@@ -53,8 +57,12 @@ public class MainActivity extends AppCompatActivity
         switch (requestCode){
             case EasyQR.QR_SCANNER_REQUEST: {
                 if (resultCode==RESULT_OK){
-                    TextView tvData = findViewById(R.id.result);
-                    tvData.setText(data.getStringExtra(EasyQR.DATA));
+
+                    String qrData = data.getStringExtra(EasyQR.DATA);
+
+                    Intent intent = new Intent(MainActivity.this, PayActivity.class);
+                    intent.putExtra("qrdata",qrData);
+                    startActivity(intent);
                 }
             } break;
         }

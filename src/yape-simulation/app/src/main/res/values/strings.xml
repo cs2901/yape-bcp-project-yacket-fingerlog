@@ -14,4 +14,7 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="qr">Qr</string>
+    <string name="pagar">Pagar</string>
+    <string name="empresa">empresa</string>
+    <string name="textview">TextView</string>
 </resources>
