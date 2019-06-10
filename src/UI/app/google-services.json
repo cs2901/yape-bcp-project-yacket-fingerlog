@@ -89,6 +89,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "584901423908-jfnhpbi4f99ikbga477k6aioagduupmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.utec.yapenegocios",
+            "certificate_hash": "21b4c100ee5be427779da63cd65d37b7c2c82b19"
+          }
+        },
+        {
           "client_id": "584901423908-dbckbrall5ibk1s8cc22t83out8ddm5c.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
