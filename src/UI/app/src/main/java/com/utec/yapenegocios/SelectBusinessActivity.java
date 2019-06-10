@@ -119,5 +119,6 @@ public class SelectBusinessActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
     }
+}
 
 }
