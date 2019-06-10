@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="background_color">#fff</color>
+    <color name="border_color">#000</color>
+    <color name="hint_color">#57000000</color>
+    <color name="menuColor">#660066</color>
+    <color name="yapeButtons">#00caa4</color>
+    <color name="Transparent">#00000000</color>
 </resources>

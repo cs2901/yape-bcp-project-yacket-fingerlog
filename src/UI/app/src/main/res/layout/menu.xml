@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:orientation="horizontal"
+        android:background="@color/menuColor"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="37dp"
+            android:text="@string/menu"
+            android:textSize="30dp"
+            android:textColor="@color/background_color"/>
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1dp"
+        android:numColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        tools:ignore="MissingConstraints,MissingPrefix">
+        <Button
+            android:id="@+id/notificaciones"
+            android:layout_width="79dp"
+            android:layout_height="6dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@color/yapeButtons"
+            android:elevation="20dp"
+            android:lineHeight="1dp"
+            android:text="@string/notificaciones"
+            android:textColor="@color/background_color"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <Button
+            android:id="@+id/colaboradores"
+            android:layout_width="79dp"
+            android:layout_height="6dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@color/yapeButtons"
+            android:elevation="20dp"
+            android:lineHeight="1dp"
+            android:text="@string/colaborador"
+            android:textColor="@color/background_color"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="158dp" />
+        <Button
+            android:id="@+id/movimientos"
+            android:layout_width="79dp"
+            android:layout_height="6dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@color/yapeButtons"
+            android:elevation="20dp"
+            android:lineHeight="1dp"
+            android:text="@string/movimientos"
+            android:textColor="@color/background_color"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="158dp" />
+        <Button
+            android:id="@+id/ajustes"
+            android:layout_width="79dp"
+            android:layout_height="6dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@color/yapeButtons"
+            android:elevation="20dp"
+            android:lineHeight="1dp"
+            android:text="@string/ajustes"
+            android:textColor="@color/background_color"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="158dp" />
+        <Button
+            android:id="@+id/perfil"
+            android:layout_width="79dp"
+            android:layout_height="6dp"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@color/yapeButtons"
+            android:elevation="20dp"
+            android:lineHeight="1dp"
+            android:text="@string/perfil"
+            android:textColor="@color/background_color"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="158dp" />
+        <Button
+            android:id="@+id/cerrarSesion"
+            android:layout_width="79dp"
+            android:layout_height="6dp"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@color/yapeButtons"
+            android:elevation="20dp"
+            android:lineHeight="1dp"
+            android:text="@string/cerrar"
+            android:textColor="@color/background_color"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>

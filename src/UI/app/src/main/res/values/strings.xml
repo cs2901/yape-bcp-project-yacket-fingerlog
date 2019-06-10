@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">Yape_Negocios</string>
+    <string name="app_name">Yape</string>
+    <string name="registro">Registro</string>
+    <string name="menu">Menu</string>
+    <string name="movimientos">Movimientos</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="razon_social">Razon social</string>
+    <string name="RUC">R.U.C</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="perfil">Perfil</string>
+    <string name="cerrar"> Cerrar sesion</string>
+    <string name="nCuenta">Nº de cuenta</string>
+    <string name="direccion">Direccion</string>
+    <string name="email">Email</string>
+    <string name="rubro">Rubro</string>
+    <string name="numero">Tu numero</string>
+    <string name="textAddmore">Añade los dni de tus colaboradores</string>
+    <string name="colaborador">Colaboradores</string>
+    <string name="addcolaborador">Anadir Colaborador</string>
+    <string name="User"> Hola User</string>
+    <string name="ingresa">Ingresa tu clave</string>
+    <string name="resgistrate">Registrate</string>
+    <string name="olvide">Olvide contraseña</string>
+    <string name="nDni">Nº de DNI</string>
+    <string name="arrow">ARROW</string>
+    <string name="PIN">PIN</string>
+    <string name="establecimientos">Tus establecimientos</string>
+    <string name="cobros">Realizar cobros</string>
+    <string name="boleta">Boleta</string>
+    <string name="factura">Factura</string>
+    <string name="soles">S/.</string>
+    <string name="pagar">Pagar</string>
+
+
+
 </resources>

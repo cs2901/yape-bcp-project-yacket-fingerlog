@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yape_negocios">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.utec.yapenegocios">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,8 +11,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:parentActivityName=".LoginActivity"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".ManageCollaboratorActivity"></activity>
+        <activity android:name=".displayQR"/>
+        <activity android:name=".DeepCollaboratorActivity" />
+        <activity android:name=".ColaboratorAccess"/>
+        <activity android:name=".menuActivity"/>
+        <activity android:name=".MovementsActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".SelectBusinessActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
