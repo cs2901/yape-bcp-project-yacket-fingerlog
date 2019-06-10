@@ -11,15 +11,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
-        android:theme="@style/Theme.AppCompat.NoActionBar" tools:ignore="GoogleAppIndexingWarning">
-
+        android:parentActivityName=".LoginActivity"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".DeepCollaboratorActivity" />
         <activity android:name=".ColaboratorAccess"/>
-        <activity android:name=".SelectBusinessActivity" android:parentActivityName=".LoginActivity"/>
+        <activity android:name=".SelectBusinessActivity"/>
         <activity android:name=".MovementsActivity"/>
         <activity android:name=".RegisterActivity"/>
-            <activity android:name=".LoginActivity">
-
+        <activity android:name=".ManageCollaboratorActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

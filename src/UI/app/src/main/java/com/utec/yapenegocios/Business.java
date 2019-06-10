@@ -1,21 +1,24 @@
 package com.utec.yapenegocios;
 
 public class Business {
-    public String nombre;
+    public String nameBusiness;
+    public String rolOf;
 
-    public Business(String nombre) {
-        this.nombre = nombre;
+    public Business(String name, String rol) {
+        this.nameBusiness = name;
+        this.rolOf = rol;
     }
 
     public Business() {
 
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return nameBusiness;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getRol() {
+        return rolOf;
     }
+
 }

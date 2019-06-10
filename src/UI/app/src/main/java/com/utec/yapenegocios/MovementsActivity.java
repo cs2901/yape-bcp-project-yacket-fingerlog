@@ -13,8 +13,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
+
 public class MovementsActivity extends AppCompatActivity{
    RecyclerView recyclerView;
+
      private  static final  String TAG = "fallo";
     DatabaseReference databaseReference;
      FirebaseRecyclerOptions<Movement> options;
