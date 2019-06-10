@@ -22,5 +22,7 @@
     <string name="olvide">Olvide contraseña</string>
     <string name="nDni">Nº de DNI</string>
     <string name="arrow">ARROW</string>
+    <string name="PIN">PIN</string>
+    <string name="establecimientos">Tus establecimientos</string>
 
 </resources>

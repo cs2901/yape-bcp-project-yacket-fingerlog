@@ -2,19 +2,18 @@ package com.utec.yapenegocios;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import static android.widget.Toast.*;
+import static android.widget.Toast.LENGTH_LONG;
+import static android.widget.Toast.makeText;
 
 
 public class RegisterActivity extends AppCompatActivity {
@@ -27,18 +26,20 @@ public class RegisterActivity extends AppCompatActivity {
      private EditText accountField;
      private EditText addressField;
      private EditText emailField;
-     private EditText rolField;
+     private EditText PINField;
      private EditText numberPhoneField;
      private EditText colaboratorField;
      private Button submitPost;
      private Button onCancel;
+     private FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
         setContentView(R.layout.register);
 
-
+        mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference("Register");
         oDatabase = FirebaseDatabase.getInstance().getReference("OwnerCollaborators");
 
@@ -47,7 +48,7 @@ public class RegisterActivity extends AppCompatActivity {
         accountField = findViewById(R.id.nAccount);
         addressField = findViewById(R.id.direction);
         emailField = findViewById(R.id.email);
-        rolField = findViewById(R.id.rol);
+        PINField = findViewById(R.id.PIN);
         numberPhoneField = findViewById(R.id.yourNumber);
         colaboratorField = findViewById(R.id.dniCollaborator);
         submitPost = findViewById(R.id.onSubmit);
@@ -71,6 +72,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
+
     public void openLoginActivity() {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
@@ -82,13 +84,13 @@ public class RegisterActivity extends AppCompatActivity {
         final String nAccount = accountField.getText().toString();
         final String direction = addressField.getText().toString();
         final String email = emailField.getText().toString();
-        final String rol= rolField.getText().toString();
+        final String PIN= PINField.getText().toString();
         final String dniCollaborator = colaboratorField.getText().toString();
         final String yourNumber = numberPhoneField.getText().toString();
 
-        if(!TextUtils.isEmpty(ruc)){
-            Register register = new Register(nameBusiness, ruc, nAccount, direction,email,rol,yourNumber,dniCollaborator);
-            mDatabase.child(ruc).setValue(register);
+        if(!TextUtils.isEmpty(PIN)){
+            Register register = new Register(nameBusiness, ruc, nAccount, direction,email,PIN,yourNumber,dniCollaborator,"Owner");
+            mDatabase.child(PIN).setValue(register);
         }
 
     }
@@ -96,11 +98,12 @@ public class RegisterActivity extends AppCompatActivity {
     private void submitPost2() {
 
         final String dniCollaborator = colaboratorField.getText().toString();
+        final String PIN = PINField.getText().toString();
         final String yourNumber = numberPhoneField.getText().toString();
 
-        if(!TextUtils.isEmpty(yourNumber)){
-            OwnerCollaborators registerOwner = new OwnerCollaborators(yourNumber,dniCollaborator);
-            oDatabase.child(yourNumber).setValue(registerOwner);
+        if(!TextUtils.isEmpty(PIN)){
+            OwnerCollaborators registerOwner = new OwnerCollaborators(dniCollaborator,"Colaborador");
+            oDatabase.child(PIN).setValue(registerOwner);
         }
     }
 }

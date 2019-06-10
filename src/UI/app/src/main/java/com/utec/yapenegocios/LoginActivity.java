@@ -3,15 +3,10 @@ package com.utec.yapenegocios;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
 
 import java.util.ArrayList;
-
-import static android.widget.Toast.LENGTH_LONG;
-import static android.widget.Toast.makeText;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -26,13 +21,18 @@ public class LoginActivity extends AppCompatActivity {
     private Button sevenNumber;
     private Button eightNumber;
     private Button nineNumber;
-    ListView list;
+    public static final String EXTRA_TEXT = "com.utec.yapenegocios.EXTRA_NAME";
+
     ArrayList<String> arrayList;
     private static final String TAG = "answoer";
+
+
     @Override
     protected void onCreate(Bundle saveInstanceState){
+
         super.onCreate(saveInstanceState);
         setContentView(R.layout.login);
+
 
 
         registerChange = findViewById(R.id.registerButton);
@@ -62,7 +62,28 @@ public class LoginActivity extends AppCompatActivity {
         numberEightClicked();
         numberNineClicked();
 
+
     }
+
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+
+
 
     public void numberOneClicked(){
         oneNumber.setOnClickListener(new View.OnClickListener() {
@@ -73,10 +94,8 @@ public class LoginActivity extends AppCompatActivity {
                 if(arrayList.size()==6){
                     OpenMovementActiviy();
                 }
-
             }
         });
-
     }
 
 
@@ -189,9 +208,24 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     private void OpenMovementActiviy(){
-        Intent intent = new Intent(this, MovementsActivity.class);
+        String loginIntro;
+        loginIntro = loginList(arrayList);
+
+        System.out.println(loginIntro);
+        Intent intent = SelectBusinessActivity.makeIntent(LoginActivity.this,loginIntro);
+        intent.putExtra(EXTRA_TEXT,loginIntro);
         startActivity(intent);
+
+    }
+
+    String loginList(ArrayList<String> list){
+        String lisTologin = "";
+        for(int i = 0; i < list.size();i++){
+            lisTologin += list.get(i);
+        }
+        return lisTologin;
     }
 
 

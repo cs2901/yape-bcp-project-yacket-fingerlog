@@ -4,12 +4,13 @@ public class OwnerCollaborators {
 
     public String yourNumber;
     public String dniCollaborator;
+    public String rolOf;
 
 
 
-    public OwnerCollaborators(String yourNumber, String dniCollaborator) {
-        this.yourNumber=yourNumber;
+    public OwnerCollaborators( String dniCollaborator,String rolOf) {
         this.dniCollaborator = dniCollaborator;
+        this.rolOf = "Colaborador";
     }
 
 
@@ -21,5 +22,5 @@ public class OwnerCollaborators {
         return dniCollaborator;
     }
 
-
+    public String getRolOf(){return rolOf;}
 }
