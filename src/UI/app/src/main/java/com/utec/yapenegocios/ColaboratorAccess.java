@@ -20,15 +20,18 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+
 public class ColaboratorAccess extends AppCompatActivity implements View.OnClickListener{
 
     private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
     DatabaseReference Payments,reference;
-    private String Pin  ;
+    private String Pin;
     String payMethod;
     int i = 0;
     Button ticket,invoice,payMent;
     ImageButton menuButton;
+    Button generateQR;
     TextInputEditText items,amount;
     String nameBusiness,email,  ruc,direction,counting;
     @Override
@@ -36,15 +39,12 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
         super.onCreate(saveInstanceState);
         setContentView(R.layout.make_payments);
         extracDatafromIntent();
-        System.out.println("colaborator acces ");
-        System.out.println(Pin);
         reference = FirebaseDatabase.getInstance().getReference().child("Register").child(Pin).child("1");
         ticket = findViewById(R.id.boleta);
         invoice = findViewById(R.id.factura);
         payMent = findViewById(R.id.pagar);
         items = findViewById(R.id.items);
         amount = findViewById(R.id.amount);
-
         menuButton = findViewById(R.id.searchImageButton);
         Payments = FirebaseDatabase.getInstance().getReference("Payments");
         System.out.println("References ");
@@ -78,6 +78,7 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
                 Intent intent = new Intent(ColaboratorAccess.this,menuActivity.class);
                 intent.putExtra(ownerpin,Pin);
                 startActivity(intent);
+
             }
         });
 
@@ -97,8 +98,19 @@ public class ColaboratorAccess extends AppCompatActivity implements View.OnClick
                     Payments pay = new Payments(Items,method,Amount,nameBusiness,ruc, email, direction);
                     Payments.child(counting).setValue(pay);
                 }
+                Intent intent = new Intent(ColaboratorAccess.this,displayQR.class);
+
+                //String dataForQR = "YP Business,item1,50,71233026,fer.sp.98@gmail.com, silva 165";
+                String dataForQR = nameBusiness+','+items.getText().toString()+','+amount.getText().toString()+','+email+','+direction;
+                intent.putExtra("data",dataForQR);
+
+                startActivity(intent);
             }
         });
+
+
+
+
 
         ticket.setOnClickListener(this);
         invoice.setOnClickListener(this);
