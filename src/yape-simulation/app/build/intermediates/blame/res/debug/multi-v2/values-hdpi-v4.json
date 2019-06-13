@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/jose/.gradle/caches/transforms-2/files-2.1/809aeb3b09ad97d84fa2943c50042301/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/jaoks/.gradle/caches/transforms-2/files-2.1/ffc701db5b12424befaccd0e1642b130/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

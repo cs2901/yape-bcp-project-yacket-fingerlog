@@ -1,68 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="28"
-    build-mode="COLD"
-    density="420dpi"
+    api-level="29"
+    build-mode="FULL"
+    density="xxhdpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1559774443031"
+    timestamp="1560204242264"
     token="-8122974254640862118"
-    verifier="R_CLASS_CHANGE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="197" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="17" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
     <artifact
-        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
+        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
         location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
+        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1559770424054"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="1560204242264"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -71,16 +140,28 @@
             location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -89,37 +170,8 @@
             location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            location="/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1559774443031"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

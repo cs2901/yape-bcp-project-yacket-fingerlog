@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "/Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/jose/.gradle/caches/transforms-2/files-2.1/54578c73f8cf01aad4f190a31074813a/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "source": "/Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

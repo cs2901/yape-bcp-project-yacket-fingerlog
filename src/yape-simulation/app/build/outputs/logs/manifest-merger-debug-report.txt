@@ -1,176 +1,1067 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-MERGED from [com.android.support:design:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/f85b37076b31c2df3aeb7e8bc14ad25d/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/809aeb3b09ad97d84fa2943c50042301/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jose/.gradle/caches/transforms-2/files-2.1/2aaee90b3689c6cbc117de39a747f70b/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/b194b1041bd7731184facb20ca873c0c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/cc74fe8c6e2f9dde4906e82d400ef9e9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d065fa0e1e122325969cf7a9bb5ce219/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/ed4bd5dc4f3ffd9f74e85cffc2b9e04b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/0f65c3e61772b0dad025a8953c1ff8be/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/dbe09150a9afa8f1be49413ba42c9e0f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/a2d3f08e77c3df2538a82d2fb45b5149/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/b9073772b1b1a5a6f8c99c7f9833647f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/7359f403c93fad4890bb1644b6c4bb71/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/aa514969478ca4df148e364d4671551b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/7bd9d88cdeb64d85886d708237e73e13/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/ffee574dbe4fce9619ad8407766d9d32/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/530adcc361823ddcd01d696af45d85b1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/65a04e0096fd05a21715b406001dc028/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/14729452ef862575ba20dcd2a100aa64/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/1c5d981680b9eb1379e6747a0aa0b392/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d026f92feedbae7fd8abf36f361bff0a/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/e7be9a54fd13682c663997db23388c5a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/cb27e512df0fb3c34722ec9fb1632528/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/732820292f7401f04613b92354693007/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/9c811ed11b2b07dea9db7702085c250d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/9387d706aeea45f687b0d1946358a4e9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/0ded0469338099c5f1f4d85af1c66f21/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/be3c9c947b79b381b112d07ef024e7c0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/3b814cb3ef13b985253c17e0f8dfba78/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/e644414af0758e4a26d5a82739fb9ec1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/e8ebac9fa04afadc9a355597cb044dc1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/3895e85f791ed522755fe0857a81d9ff/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:design:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/31d3eb8c9455b51b5d1b38af8fb32dfc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.gms:play-services:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c1a9cb1d71bad77b1eed95b5c5e1e32/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/88b5dc92a64301ebe85bd37d9fb3d60b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ffc701db5b12424befaccd0e1642b130/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c072ef97ea7e1114e1fb94ef37a4582/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0b1c79567b0452da8c27230f4c76b9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-tagmanager:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1164e370f8fac23bf26d5e9f12e91355/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e32497169c96de4ee65c8e4e1f36de2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/887354c3f19eec22d1fe13d31d608ab9/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/37b9c5e45f2ed4c7c297153aefbbbb06/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-config:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3ea9d2def7fc5634692f36af3987a052/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3900a6ba97b45717ea91f5550ff63944/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-games:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c6d645d0cef7e3b281c36cbcaa212971/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c2ebe0e29e1e5dc395cf1841749f21cf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e275359ee8c4b9cd5b8c827bdfae5e7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8536f94792ca36859d34102a30c806c4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0091c699676aeb74cc9a5090f224726a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a8de6713619e79a790b42aff4041f9d8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8455ac89d748b54552a51d30ad06046f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0ba3448d8c9025a9c99ea1a76c6dba88/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-instantapps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fd8e89227063e99a12de0b4eed01f81a/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/764b1224c5a69355b9c3cba74ebe24cb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8dd349eb1796b7966e0f078c7d307239/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eb04d875ab5a9a9c6f3e8920bab1bf28/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/57ed5f1f6b8e1821579c641cfab82639/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14c5a82de6c219fa57fa4628761bffe2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/373d720566fe1c3710490a18e0a40ada/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c35a04f7f2d725601e9085270041f434/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3022b761c49c62867300c873e78ce7a2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbf899161a186e303c4373219bc63c24/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-crash:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d13efee9b9ca85bf52d84d61f4fc61f3/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-database:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c4d316665f4b5c0a0aca5bc447c77a92/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7fde0d1c7b8ec3e5232ed8fd90d865d8/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-storage:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/781930577ec51c8255cb9dbbac39139c/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5adbcfd9a191f66b831fcb493f671977/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13021f4ffd9c90c8b9d2c915602e63db/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5a0e3a5c954d350e9c9705ee534e5eeb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/cfcc6d1294a2b1844b75930e0b07a0c3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b76034f57f162a219d0aeb242dc1bfef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e9db25690872e578bcc03e7b6257dfe6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/442a1def6ade2abfcdd273baf203c3fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ca7fa9b264d366751c19a290964ac6ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dc465d7f7d89ad6427e9081455285e44/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f8853ab1432d6cb995f68e7542a7e957/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/729687e128b1ae2c7f817c01f2cac41b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6b683284c652884d26a2f449a3207275/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b4b8fcc2fa26c247b7cfc0f2dd017e57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/86ba23ad2a45cd1840ba2a33b7763cba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5c94d649939275b7a0a9899efd762c99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/859341551b6fe40bec94fa2d5ca222d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f661f44b79f483f9b732f0b2ad7f9574/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7a90499d6dfcc8fdcb35ab41f3d4dbad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b7f3a7686d4b8c94c361ef4b5b5faabe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/91cf3e409aee068f08eac88abc39810e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/47c859376811ff2c3366147e4110b616/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eac24baa023e78b13900eff854596217/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/689295e8ef308d27e9c0cc5fbeaa2008/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9dc572126ff20faedf9c16b332233034/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e42c8deeadc249bd628d0561d98e4285/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/802f4684ceddaa6e00eba469e9046962/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d3e26989f6e47155d7d3834a9971070b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7cdb5b0aa52555f93a40bd507feda9f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a1312ece90ae95ae0af9ee3ee3fe219d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e120b126c4c46e6c7585427da02451a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/60d45d21b6be7a556cf245170ce74649/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/014d0cad18b888cf6bbd8d63e5b50fe1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/de2ab0d51faed8edcdeb4696034ace84/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b760c82d254bad3513e0bd9a14214ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/449f6c080c661cbc3b5ab6093267b292/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/febc2e6ec0f4352f902101254d9742ce/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/811c1aaf004b7e73762d9f8a76e5cbf8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a4245d1361f01459a4807ed664e373de/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1b4cfa7299e7c98dd5d9c3fe6ef2f506/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c3ebcaf75bdb6f88f68c5d07bfb148e5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b16ebd5a1a2946b5a13f9d26da81dd10/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/96bc38bf38947bea4194f6c4e7b41f2f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0def4b51e1dd01d711346548e85a0df0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/756c06c797bed3f707abbd1c3c68dcac/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1ced0b565b17261c400f53cabc9197b9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7709efd1f3ad8c272167ee90aea2c357/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c17357cd51c48707733335f390d187b5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fe2fa9669af239d5556a3a4aef6ebf5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13c72902781d0063a71d31c5bbd428fa/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4c5060cf378d600a32c853723342a707/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5ca926eb917e6a25246c778cd19b945a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4d3496f03e5db42dc3096e05d44a6918/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b078e487272442609792f5827c877799/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4bf7ffc9af7da7c7bb23589222815c27/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dac5ed040d35cb43e32e009b201e34cb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8a40452c241edab6f8a4d445aaac58bd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fa894b37fd8b552685c61d79d3affb8e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0967fe00d4c9c1b9310cb9da400ffc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7d378b2a9749aa54cce6bfbe793d5a8c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a26056f25677608157e77ddcbbe3dd03/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/759bde42be2b3fbf0a3308fb57559252/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1733f6d40ad54cd01f8a3ec41611bfce/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2a936f65aecddbf081e0bde256b6ac46/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/aa8c126ca290bfa5e2bdca617395b93c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4f44b09e4af5a3e223ab448f90d0b566/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4518922d8bff378c4824d921e50bd47a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f3795d9dd97afadf9681e739f22c754e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ddb29edceade2fa8cc0e05c930f35e21/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3c8b20f559fe51fe13b3d77c828df169/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fff9639ea68c452231d5c80f442912d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/933572290c79165f0614f8d0044a03b4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/17ac9f7bc81e163507ffe1bf80704cbf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d88b54c1af61d7e2697e3b72b7e85d7b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/107958d738a5df2e2e1ed33dd61b4bd0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0409fef2640fcce55594ae99aea92357/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4a1370a316bd2d1371c6db76e7410c74/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbb2974b77cba6853d26d01f1bd093ec/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8f621f9e42023ecfb2e8efa325294d90/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/76d082ae9da8122b0dd277e6377900f7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d1a088727098ac889d97a6a3f035bc2d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9596749915096fb4c699036b927f5503/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/bf3b0cb1791534383e19794e23a163cb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3a272009855707c9a17a06a3b44ee403/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0e0a6a1f1a211a4a279e6d14a1b98377/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-crash:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d13efee9b9ca85bf52d84d61f4fc61f3/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-crash:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d13efee9b9ca85bf52d84d61f4fc61f3/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:5:5-23:19
-MERGED from [com.android.support:design:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/f85b37076b31c2df3aeb7e8bc14ad25d/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/f85b37076b31c2df3aeb7e8bc14ad25d/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jose/.gradle/caches/transforms-2/files-2.1/2aaee90b3689c6cbc117de39a747f70b/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jose/.gradle/caches/transforms-2/files-2.1/2aaee90b3689c6cbc117de39a747f70b/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/1c5d981680b9eb1379e6747a0aa0b392/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/1c5d981680b9eb1379e6747a0aa0b392/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d026f92feedbae7fd8abf36f361bff0a/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d026f92feedbae7fd8abf36f361bff0a/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:7:5-26:19
+MERGED from [com.android.support:design:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/31d3eb8c9455b51b5d1b38af8fb32dfc/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/31d3eb8c9455b51b5d1b38af8fb32dfc/AndroidManifest.xml:22:5-20
+MERGED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:13:5-18:19
+MERGED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:13:5-18:19
+MERGED from [com.google.android.gms:play-services:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c1a9cb1d71bad77b1eed95b5c5e1e32/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c1a9cb1d71bad77b1eed95b5c5e1e32/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/88b5dc92a64301ebe85bd37d9fb3d60b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/88b5dc92a64301ebe85bd37d9fb3d60b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c072ef97ea7e1114e1fb94ef37a4582/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c072ef97ea7e1114e1fb94ef37a4582/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e32497169c96de4ee65c8e4e1f36de2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e32497169c96de4ee65c8e4e1f36de2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-config:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3ea9d2def7fc5634692f36af3987a052/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3ea9d2def7fc5634692f36af3987a052/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3900a6ba97b45717ea91f5550ff63944/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3900a6ba97b45717ea91f5550ff63944/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c6d645d0cef7e3b281c36cbcaa212971/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c6d645d0cef7e3b281c36cbcaa212971/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c2ebe0e29e1e5dc395cf1841749f21cf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c2ebe0e29e1e5dc395cf1841749f21cf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e275359ee8c4b9cd5b8c827bdfae5e7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e275359ee8c4b9cd5b8c827bdfae5e7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8536f94792ca36859d34102a30c806c4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8536f94792ca36859d34102a30c806c4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0091c699676aeb74cc9a5090f224726a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0091c699676aeb74cc9a5090f224726a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a8de6713619e79a790b42aff4041f9d8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a8de6713619e79a790b42aff4041f9d8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0ba3448d8c9025a9c99ea1a76c6dba88/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0ba3448d8c9025a9c99ea1a76c6dba88/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/764b1224c5a69355b9c3cba74ebe24cb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/764b1224c5a69355b9c3cba74ebe24cb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8dd349eb1796b7966e0f078c7d307239/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8dd349eb1796b7966e0f078c7d307239/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eb04d875ab5a9a9c6f3e8920bab1bf28/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eb04d875ab5a9a9c6f3e8920bab1bf28/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/57ed5f1f6b8e1821579c641cfab82639/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/57ed5f1f6b8e1821579c641cfab82639/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14c5a82de6c219fa57fa4628761bffe2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14c5a82de6c219fa57fa4628761bffe2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/373d720566fe1c3710490a18e0a40ada/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/373d720566fe1c3710490a18e0a40ada/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c35a04f7f2d725601e9085270041f434/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c35a04f7f2d725601e9085270041f434/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3022b761c49c62867300c873e78ce7a2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3022b761c49c62867300c873e78ce7a2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbf899161a186e303c4373219bc63c24/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbf899161a186e303c4373219bc63c24/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-crash:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d13efee9b9ca85bf52d84d61f4fc61f3/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-crash:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d13efee9b9ca85bf52d84d61f4fc61f3/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13021f4ffd9c90c8b9d2c915602e63db/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13021f4ffd9c90c8b9d2c915602e63db/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5a0e3a5c954d350e9c9705ee534e5eeb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5a0e3a5c954d350e9c9705ee534e5eeb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/cfcc6d1294a2b1844b75930e0b07a0c3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/cfcc6d1294a2b1844b75930e0b07a0c3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:palette-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dc465d7f7d89ad6427e9081455285e44/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:palette-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dc465d7f7d89ad6427e9081455285e44/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/47c859376811ff2c3366147e4110b616/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/47c859376811ff2c3366147e4110b616/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eac24baa023e78b13900eff854596217/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eac24baa023e78b13900eff854596217/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/689295e8ef308d27e9c0cc5fbeaa2008/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/689295e8ef308d27e9c0cc5fbeaa2008/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/449f6c080c661cbc3b5ab6093267b292/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/449f6c080c661cbc3b5ab6093267b292/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/febc2e6ec0f4352f902101254d9742ce/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/febc2e6ec0f4352f902101254d9742ce/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/811c1aaf004b7e73762d9f8a76e5cbf8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/811c1aaf004b7e73762d9f8a76e5cbf8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a4245d1361f01459a4807ed664e373de/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a4245d1361f01459a4807ed664e373de/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1b4cfa7299e7c98dd5d9c3fe6ef2f506/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1b4cfa7299e7c98dd5d9c3fe6ef2f506/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c3ebcaf75bdb6f88f68c5d07bfb148e5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c3ebcaf75bdb6f88f68c5d07bfb148e5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b16ebd5a1a2946b5a13f9d26da81dd10/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b16ebd5a1a2946b5a13f9d26da81dd10/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/96bc38bf38947bea4194f6c4e7b41f2f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/96bc38bf38947bea4194f6c4e7b41f2f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0def4b51e1dd01d711346548e85a0df0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0def4b51e1dd01d711346548e85a0df0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/756c06c797bed3f707abbd1c3c68dcac/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/756c06c797bed3f707abbd1c3c68dcac/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1ced0b565b17261c400f53cabc9197b9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1ced0b565b17261c400f53cabc9197b9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7709efd1f3ad8c272167ee90aea2c357/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7709efd1f3ad8c272167ee90aea2c357/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c17357cd51c48707733335f390d187b5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c17357cd51c48707733335f390d187b5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fe2fa9669af239d5556a3a4aef6ebf5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fe2fa9669af239d5556a3a4aef6ebf5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13c72902781d0063a71d31c5bbd428fa/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13c72902781d0063a71d31c5bbd428fa/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4c5060cf378d600a32c853723342a707/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4c5060cf378d600a32c853723342a707/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5ca926eb917e6a25246c778cd19b945a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5ca926eb917e6a25246c778cd19b945a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4d3496f03e5db42dc3096e05d44a6918/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4d3496f03e5db42dc3096e05d44a6918/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b078e487272442609792f5827c877799/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b078e487272442609792f5827c877799/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4bf7ffc9af7da7c7bb23589222815c27/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4bf7ffc9af7da7c7bb23589222815c27/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dac5ed040d35cb43e32e009b201e34cb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dac5ed040d35cb43e32e009b201e34cb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8a40452c241edab6f8a4d445aaac58bd/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8a40452c241edab6f8a4d445aaac58bd/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fa894b37fd8b552685c61d79d3affb8e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fa894b37fd8b552685c61d79d3affb8e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0967fe00d4c9c1b9310cb9da400ffc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0967fe00d4c9c1b9310cb9da400ffc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7d378b2a9749aa54cce6bfbe793d5a8c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7d378b2a9749aa54cce6bfbe793d5a8c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a26056f25677608157e77ddcbbe3dd03/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a26056f25677608157e77ddcbbe3dd03/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/759bde42be2b3fbf0a3308fb57559252/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/759bde42be2b3fbf0a3308fb57559252/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1733f6d40ad54cd01f8a3ec41611bfce/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1733f6d40ad54cd01f8a3ec41611bfce/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2a936f65aecddbf081e0bde256b6ac46/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2a936f65aecddbf081e0bde256b6ac46/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/aa8c126ca290bfa5e2bdca617395b93c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/aa8c126ca290bfa5e2bdca617395b93c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4f44b09e4af5a3e223ab448f90d0b566/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4f44b09e4af5a3e223ab448f90d0b566/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4518922d8bff378c4824d921e50bd47a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4518922d8bff378c4824d921e50bd47a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f3795d9dd97afadf9681e739f22c754e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f3795d9dd97afadf9681e739f22c754e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ddb29edceade2fa8cc0e05c930f35e21/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ddb29edceade2fa8cc0e05c930f35e21/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3c8b20f559fe51fe13b3d77c828df169/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3c8b20f559fe51fe13b3d77c828df169/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fff9639ea68c452231d5c80f442912d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fff9639ea68c452231d5c80f442912d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/933572290c79165f0614f8d0044a03b4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/933572290c79165f0614f8d0044a03b4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/17ac9f7bc81e163507ffe1bf80704cbf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/17ac9f7bc81e163507ffe1bf80704cbf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d88b54c1af61d7e2697e3b72b7e85d7b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d88b54c1af61d7e2697e3b72b7e85d7b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/107958d738a5df2e2e1ed33dd61b4bd0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/107958d738a5df2e2e1ed33dd61b4bd0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0409fef2640fcce55594ae99aea92357/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0409fef2640fcce55594ae99aea92357/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4a1370a316bd2d1371c6db76e7410c74/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4a1370a316bd2d1371c6db76e7410c74/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbb2974b77cba6853d26d01f1bd093ec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbb2974b77cba6853d26d01f1bd093ec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8f621f9e42023ecfb2e8efa325294d90/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8f621f9e42023ecfb2e8efa325294d90/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/76d082ae9da8122b0dd277e6377900f7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/76d082ae9da8122b0dd277e6377900f7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d1a088727098ac889d97a6a3f035bc2d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d1a088727098ac889d97a6a3f035bc2d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9596749915096fb4c699036b927f5503/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9596749915096fb4c699036b927f5503/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/bf3b0cb1791534383e19794e23a163cb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/bf3b0cb1791534383e19794e23a163cb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3a272009855707c9a17a06a3b44ee403/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3a272009855707c9a17a06a3b44ee403/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0e0a6a1f1a211a4a279e6d14a1b98377/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0e0a6a1f1a211a4a279e6d14a1b98377/AndroidManifest.xml:22:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/1c5d981680b9eb1379e6747a0aa0b392/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eac24baa023e78b13900eff854596217/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.myapplication.PayActivity
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:14:9-58
+	android:name
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:14:19-46
 activity#com.example.myapplication.InvoiceFillActivity
-ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:12:9-66
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:15:9-57
 	android:name
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:12:19-54
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:15:19-54
 activity#com.example.myapplication.MainActivity
-ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:13:9-22:20
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:18:13-45
 	android:theme
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:16:13-56
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/f85b37076b31c2df3aeb7e8bc14ad25d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/f85b37076b31c2df3aeb7e8bc14ad25d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/809aeb3b09ad97d84fa2943c50042301/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/809aeb3b09ad97d84fa2943c50042301/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jose/.gradle/caches/transforms-2/files-2.1/2aaee90b3689c6cbc117de39a747f70b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/jose/.gradle/caches/transforms-2/files-2.1/2aaee90b3689c6cbc117de39a747f70b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/b194b1041bd7731184facb20ca873c0c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/b194b1041bd7731184facb20ca873c0c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/cc74fe8c6e2f9dde4906e82d400ef9e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/cc74fe8c6e2f9dde4906e82d400ef9e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d065fa0e1e122325969cf7a9bb5ce219/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d065fa0e1e122325969cf7a9bb5ce219/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/ed4bd5dc4f3ffd9f74e85cffc2b9e04b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/ed4bd5dc4f3ffd9f74e85cffc2b9e04b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/0f65c3e61772b0dad025a8953c1ff8be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/0f65c3e61772b0dad025a8953c1ff8be/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/dbe09150a9afa8f1be49413ba42c9e0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/dbe09150a9afa8f1be49413ba42c9e0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/a2d3f08e77c3df2538a82d2fb45b5149/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/a2d3f08e77c3df2538a82d2fb45b5149/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/b9073772b1b1a5a6f8c99c7f9833647f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/b9073772b1b1a5a6f8c99c7f9833647f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/7359f403c93fad4890bb1644b6c4bb71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/7359f403c93fad4890bb1644b6c4bb71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/aa514969478ca4df148e364d4671551b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/aa514969478ca4df148e364d4671551b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/7bd9d88cdeb64d85886d708237e73e13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/7bd9d88cdeb64d85886d708237e73e13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/ffee574dbe4fce9619ad8407766d9d32/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/ffee574dbe4fce9619ad8407766d9d32/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/530adcc361823ddcd01d696af45d85b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/530adcc361823ddcd01d696af45d85b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/65a04e0096fd05a21715b406001dc028/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/65a04e0096fd05a21715b406001dc028/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/14729452ef862575ba20dcd2a100aa64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/14729452ef862575ba20dcd2a100aa64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/1c5d981680b9eb1379e6747a0aa0b392/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/1c5d981680b9eb1379e6747a0aa0b392/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d026f92feedbae7fd8abf36f361bff0a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/d026f92feedbae7fd8abf36f361bff0a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/e7be9a54fd13682c663997db23388c5a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/e7be9a54fd13682c663997db23388c5a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/cb27e512df0fb3c34722ec9fb1632528/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/cb27e512df0fb3c34722ec9fb1632528/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/732820292f7401f04613b92354693007/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/732820292f7401f04613b92354693007/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/9c811ed11b2b07dea9db7702085c250d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/9c811ed11b2b07dea9db7702085c250d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/9387d706aeea45f687b0d1946358a4e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/9387d706aeea45f687b0d1946358a4e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/0ded0469338099c5f1f4d85af1c66f21/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/0ded0469338099c5f1f4d85af1c66f21/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/be3c9c947b79b381b112d07ef024e7c0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/be3c9c947b79b381b112d07ef024e7c0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/3b814cb3ef13b985253c17e0f8dfba78/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/jose/.gradle/caches/transforms-2/files-2.1/3b814cb3ef13b985253c17e0f8dfba78/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/e644414af0758e4a26d5a82739fb9ec1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/e644414af0758e4a26d5a82739fb9ec1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/e8ebac9fa04afadc9a355597cb044dc1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/e8ebac9fa04afadc9a355597cb044dc1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/3895e85f791ed522755fe0857a81d9ff/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/jose/.gradle/caches/transforms-2/files-2.1/3895e85f791ed522755fe0857a81d9ff/AndroidManifest.xml:20:5-44
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/31d3eb8c9455b51b5d1b38af8fb32dfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/31d3eb8c9455b51b5d1b38af8fb32dfc/AndroidManifest.xml:20:5-44
+MERGED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c1a9cb1d71bad77b1eed95b5c5e1e32/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c1a9cb1d71bad77b1eed95b5c5e1e32/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/88b5dc92a64301ebe85bd37d9fb3d60b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/88b5dc92a64301ebe85bd37d9fb3d60b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ffc701db5b12424befaccd0e1642b130/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ffc701db5b12424befaccd0e1642b130/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c072ef97ea7e1114e1fb94ef37a4582/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8c072ef97ea7e1114e1fb94ef37a4582/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0b1c79567b0452da8c27230f4c76b9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0b1c79567b0452da8c27230f4c76b9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1164e370f8fac23bf26d5e9f12e91355/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1164e370f8fac23bf26d5e9f12e91355/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e32497169c96de4ee65c8e4e1f36de2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e32497169c96de4ee65c8e4e1f36de2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/887354c3f19eec22d1fe13d31d608ab9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/887354c3f19eec22d1fe13d31d608ab9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/37b9c5e45f2ed4c7c297153aefbbbb06/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/37b9c5e45f2ed4c7c297153aefbbbb06/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-config:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3ea9d2def7fc5634692f36af3987a052/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3ea9d2def7fc5634692f36af3987a052/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3900a6ba97b45717ea91f5550ff63944/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3900a6ba97b45717ea91f5550ff63944/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c6d645d0cef7e3b281c36cbcaa212971/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c6d645d0cef7e3b281c36cbcaa212971/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c2ebe0e29e1e5dc395cf1841749f21cf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c2ebe0e29e1e5dc395cf1841749f21cf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e275359ee8c4b9cd5b8c827bdfae5e7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9e275359ee8c4b9cd5b8c827bdfae5e7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8536f94792ca36859d34102a30c806c4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8536f94792ca36859d34102a30c806c4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0091c699676aeb74cc9a5090f224726a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0091c699676aeb74cc9a5090f224726a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a8de6713619e79a790b42aff4041f9d8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a8de6713619e79a790b42aff4041f9d8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8455ac89d748b54552a51d30ad06046f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8455ac89d748b54552a51d30ad06046f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0ba3448d8c9025a9c99ea1a76c6dba88/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0ba3448d8c9025a9c99ea1a76c6dba88/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-instantapps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fd8e89227063e99a12de0b4eed01f81a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-instantapps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fd8e89227063e99a12de0b4eed01f81a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/764b1224c5a69355b9c3cba74ebe24cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/764b1224c5a69355b9c3cba74ebe24cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8dd349eb1796b7966e0f078c7d307239/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8dd349eb1796b7966e0f078c7d307239/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eb04d875ab5a9a9c6f3e8920bab1bf28/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eb04d875ab5a9a9c6f3e8920bab1bf28/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/57ed5f1f6b8e1821579c641cfab82639/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-panorama:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/57ed5f1f6b8e1821579c641cfab82639/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14c5a82de6c219fa57fa4628761bffe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14c5a82de6c219fa57fa4628761bffe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/373d720566fe1c3710490a18e0a40ada/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/373d720566fe1c3710490a18e0a40ada/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c35a04f7f2d725601e9085270041f434/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c35a04f7f2d725601e9085270041f434/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3022b761c49c62867300c873e78ce7a2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3022b761c49c62867300c873e78ce7a2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbf899161a186e303c4373219bc63c24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbf899161a186e303c4373219bc63c24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d13efee9b9ca85bf52d84d61f4fc61f3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d13efee9b9ca85bf52d84d61f4fc61f3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c4d316665f4b5c0a0aca5bc447c77a92/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c4d316665f4b5c0a0aca5bc447c77a92/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7fde0d1c7b8ec3e5232ed8fd90d865d8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7fde0d1c7b8ec3e5232ed8fd90d865d8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/781930577ec51c8255cb9dbbac39139c/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/781930577ec51c8255cb9dbbac39139c/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5adbcfd9a191f66b831fcb493f671977/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5adbcfd9a191f66b831fcb493f671977/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13021f4ffd9c90c8b9d2c915602e63db/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13021f4ffd9c90c8b9d2c915602e63db/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5a0e3a5c954d350e9c9705ee534e5eeb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5a0e3a5c954d350e9c9705ee534e5eeb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/cfcc6d1294a2b1844b75930e0b07a0c3/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/cfcc6d1294a2b1844b75930e0b07a0c3/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b76034f57f162a219d0aeb242dc1bfef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b76034f57f162a219d0aeb242dc1bfef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e9db25690872e578bcc03e7b6257dfe6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e9db25690872e578bcc03e7b6257dfe6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/442a1def6ade2abfcdd273baf203c3fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/442a1def6ade2abfcdd273baf203c3fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ca7fa9b264d366751c19a290964ac6ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ca7fa9b264d366751c19a290964ac6ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dc465d7f7d89ad6427e9081455285e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dc465d7f7d89ad6427e9081455285e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f8853ab1432d6cb995f68e7542a7e957/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f8853ab1432d6cb995f68e7542a7e957/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/729687e128b1ae2c7f817c01f2cac41b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/729687e128b1ae2c7f817c01f2cac41b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6b683284c652884d26a2f449a3207275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6b683284c652884d26a2f449a3207275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b4b8fcc2fa26c247b7cfc0f2dd017e57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b4b8fcc2fa26c247b7cfc0f2dd017e57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/86ba23ad2a45cd1840ba2a33b7763cba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/86ba23ad2a45cd1840ba2a33b7763cba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5c94d649939275b7a0a9899efd762c99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5c94d649939275b7a0a9899efd762c99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/859341551b6fe40bec94fa2d5ca222d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/859341551b6fe40bec94fa2d5ca222d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f661f44b79f483f9b732f0b2ad7f9574/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f661f44b79f483f9b732f0b2ad7f9574/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7a90499d6dfcc8fdcb35ab41f3d4dbad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7a90499d6dfcc8fdcb35ab41f3d4dbad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b7f3a7686d4b8c94c361ef4b5b5faabe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b7f3a7686d4b8c94c361ef4b5b5faabe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/91cf3e409aee068f08eac88abc39810e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/91cf3e409aee068f08eac88abc39810e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/47c859376811ff2c3366147e4110b616/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/47c859376811ff2c3366147e4110b616/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eac24baa023e78b13900eff854596217/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eac24baa023e78b13900eff854596217/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/689295e8ef308d27e9c0cc5fbeaa2008/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/689295e8ef308d27e9c0cc5fbeaa2008/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9dc572126ff20faedf9c16b332233034/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9dc572126ff20faedf9c16b332233034/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e42c8deeadc249bd628d0561d98e4285/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e42c8deeadc249bd628d0561d98e4285/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/802f4684ceddaa6e00eba469e9046962/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/802f4684ceddaa6e00eba469e9046962/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d3e26989f6e47155d7d3834a9971070b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d3e26989f6e47155d7d3834a9971070b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7cdb5b0aa52555f93a40bd507feda9f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7cdb5b0aa52555f93a40bd507feda9f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a1312ece90ae95ae0af9ee3ee3fe219d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a1312ece90ae95ae0af9ee3ee3fe219d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e120b126c4c46e6c7585427da02451a0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e120b126c4c46e6c7585427da02451a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/60d45d21b6be7a556cf245170ce74649/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/60d45d21b6be7a556cf245170ce74649/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/014d0cad18b888cf6bbd8d63e5b50fe1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/014d0cad18b888cf6bbd8d63e5b50fe1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/de2ab0d51faed8edcdeb4696034ace84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/de2ab0d51faed8edcdeb4696034ace84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b760c82d254bad3513e0bd9a14214ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b760c82d254bad3513e0bd9a14214ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/449f6c080c661cbc3b5ab6093267b292/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/449f6c080c661cbc3b5ab6093267b292/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/febc2e6ec0f4352f902101254d9742ce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/febc2e6ec0f4352f902101254d9742ce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/811c1aaf004b7e73762d9f8a76e5cbf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/811c1aaf004b7e73762d9f8a76e5cbf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a4245d1361f01459a4807ed664e373de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a4245d1361f01459a4807ed664e373de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1b4cfa7299e7c98dd5d9c3fe6ef2f506/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1b4cfa7299e7c98dd5d9c3fe6ef2f506/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c3ebcaf75bdb6f88f68c5d07bfb148e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c3ebcaf75bdb6f88f68c5d07bfb148e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b16ebd5a1a2946b5a13f9d26da81dd10/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b16ebd5a1a2946b5a13f9d26da81dd10/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/96bc38bf38947bea4194f6c4e7b41f2f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/96bc38bf38947bea4194f6c4e7b41f2f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0def4b51e1dd01d711346548e85a0df0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0def4b51e1dd01d711346548e85a0df0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/756c06c797bed3f707abbd1c3c68dcac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/756c06c797bed3f707abbd1c3c68dcac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1ced0b565b17261c400f53cabc9197b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1ced0b565b17261c400f53cabc9197b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7709efd1f3ad8c272167ee90aea2c357/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7709efd1f3ad8c272167ee90aea2c357/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c17357cd51c48707733335f390d187b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/c17357cd51c48707733335f390d187b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fe2fa9669af239d5556a3a4aef6ebf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fe2fa9669af239d5556a3a4aef6ebf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13c72902781d0063a71d31c5bbd428fa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13c72902781d0063a71d31c5bbd428fa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4c5060cf378d600a32c853723342a707/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4c5060cf378d600a32c853723342a707/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5ca926eb917e6a25246c778cd19b945a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5ca926eb917e6a25246c778cd19b945a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4d3496f03e5db42dc3096e05d44a6918/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4d3496f03e5db42dc3096e05d44a6918/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b078e487272442609792f5827c877799/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b078e487272442609792f5827c877799/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4bf7ffc9af7da7c7bb23589222815c27/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4bf7ffc9af7da7c7bb23589222815c27/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dac5ed040d35cb43e32e009b201e34cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dac5ed040d35cb43e32e009b201e34cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8a40452c241edab6f8a4d445aaac58bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8a40452c241edab6f8a4d445aaac58bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fa894b37fd8b552685c61d79d3affb8e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/fa894b37fd8b552685c61d79d3affb8e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0967fe00d4c9c1b9310cb9da400ffc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0967fe00d4c9c1b9310cb9da400ffc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7d378b2a9749aa54cce6bfbe793d5a8c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/7d378b2a9749aa54cce6bfbe793d5a8c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a26056f25677608157e77ddcbbe3dd03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a26056f25677608157e77ddcbbe3dd03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/759bde42be2b3fbf0a3308fb57559252/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/759bde42be2b3fbf0a3308fb57559252/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1733f6d40ad54cd01f8a3ec41611bfce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1733f6d40ad54cd01f8a3ec41611bfce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2a936f65aecddbf081e0bde256b6ac46/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2a936f65aecddbf081e0bde256b6ac46/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/aa8c126ca290bfa5e2bdca617395b93c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/aa8c126ca290bfa5e2bdca617395b93c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4f44b09e4af5a3e223ab448f90d0b566/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4f44b09e4af5a3e223ab448f90d0b566/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4518922d8bff378c4824d921e50bd47a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4518922d8bff378c4824d921e50bd47a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f3795d9dd97afadf9681e739f22c754e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-instantapps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f3795d9dd97afadf9681e739f22c754e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ddb29edceade2fa8cc0e05c930f35e21/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/ddb29edceade2fa8cc0e05c930f35e21/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3c8b20f559fe51fe13b3d77c828df169/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3c8b20f559fe51fe13b3d77c828df169/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fff9639ea68c452231d5c80f442912d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9fff9639ea68c452231d5c80f442912d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/933572290c79165f0614f8d0044a03b4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/933572290c79165f0614f8d0044a03b4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/17ac9f7bc81e163507ffe1bf80704cbf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-nearby-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/17ac9f7bc81e163507ffe1bf80704cbf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d88b54c1af61d7e2697e3b72b7e85d7b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-panorama-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d88b54c1af61d7e2697e3b72b7e85d7b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/107958d738a5df2e2e1ed33dd61b4bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/107958d738a5df2e2e1ed33dd61b4bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0409fef2640fcce55594ae99aea92357/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0409fef2640fcce55594ae99aea92357/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4a1370a316bd2d1371c6db76e7410c74/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/4a1370a316bd2d1371c6db76e7410c74/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbb2974b77cba6853d26d01f1bd093ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dbb2974b77cba6853d26d01f1bd093ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8f621f9e42023ecfb2e8efa325294d90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8f621f9e42023ecfb2e8efa325294d90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/76d082ae9da8122b0dd277e6377900f7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/76d082ae9da8122b0dd277e6377900f7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d1a088727098ac889d97a6a3f035bc2d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/d1a088727098ac889d97a6a3f035bc2d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9596749915096fb4c699036b927f5503/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/9596749915096fb4c699036b927f5503/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/bf3b0cb1791534383e19794e23a163cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/bf3b0cb1791534383e19794e23a163cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3a272009855707c9a17a06a3b44ee403/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3a272009855707c9a17a06a3b44ee403/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0e0a6a1f1a211a4a279e6d14a1b98377/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0e0a6a1f1a211a4a279e6d14a1b98377/AndroidManifest.xml:20:5-44
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8b0b1c79567b0452da8c27230f4c76b9/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-		ADDED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jose/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaoks/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:11:22-62
+activity#in.mrasif.libs.easyqr.QRScanner
+ADDED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:14:9-17:43
+	android:turnScreenOn
+		ADDED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:17:13-40
+	android:exported
+		ADDED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.github.mrasif:easyqrlibrary:v1.0.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6d5c1ca4e071b872dc7708ccfedb9184/AndroidManifest.xml:15:13-59
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:8:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:8:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:10:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:10:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:11:9-93
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f47342537c552b0a7779fe19b8aea8c7/AndroidManifest.xml:11:18-90
+meta-data#android.support.VERSION
+ADDED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/cfcc6d1294a2b1844b75930e0b07a0c3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/cfcc6d1294a2b1844b75930e0b07a0c3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:palette-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dc465d7f7d89ad6427e9081455285e44/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:palette-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/dc465d7f7d89ad6427e9081455285e44/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/47c859376811ff2c3366147e4110b616/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/47c859376811ff2c3366147e4110b616/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:mediarouter-v7:26.1.0] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f681975f8e36a98c97c81a452327a6db/AndroidManifest.xml:24:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eb04d875ab5a9a9c6f3e8920bab1bf28/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-nearby:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/eb04d875ab5a9a9c6f3e8920bab1bf28/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:24:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e788738bc8f192cb89e3e78459e1b1cf/AndroidManifest.xml:30:13-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/6df858e9bb05e2994398dc26fe6ea9ca/AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:27:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:31:13-78
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:37:13-77
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:40:9-44:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:43:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/3516f2ec22ae8378fd8818e7c597b01a/AndroidManifest.xml:41:13-80
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:25:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:26:13-76
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:29:13-33:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:30:17-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:30:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/5bafea353bc1d98941ac6e40f91779eb/AndroidManifest.xml:32:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/a0654ae6c79098423e304974530112d1/AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0b6cf30b81460399c33fd4056009895a/AndroidManifest.xml:24:13-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/8eb81ecf3c6f1e45d0089ae8ca07541d/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/71fba06a63cc0b5d323f90245cbb7b90/AndroidManifest.xml:23:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/13fefc508c2479bb64ea3fa3128edeed/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/75a1bfa9b6e1b7eeee0e57aa73c32dfb/AndroidManifest.xml:24:13-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/2f7445998b6f2c74ba07073882d28f2c/AndroidManifest.xml:32:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:27:9-30:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:29:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:28:13-79
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:32:9-44:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:35:13-37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:33:13-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:36:13-43:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.example.myapplication
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:36:13-43:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:37:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:37:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:39:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/0bfb240c9793bdd34af89444a7add131/AndroidManifest.xml:42:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/e8d48ce0d08b087fd2e98bebf8d8e5ae/AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/14243ec284b7d7577949982939f581aa/AndroidManifest.xml:48:13-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:29:9-63
+permission#com.example.myapplication.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:32:22-76
+uses-permission#com.example.myapplication.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.myapplication
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:42:27-58
+category#com.example.myapplication
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/1fb248bf199b8f7f60c715a893222c74/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/f63ba8ce1bf59035e450567521e8ef61/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/jaoks/.gradle/caches/transforms-2/files-2.1/b64736d33b5477b2f650cfe5b9ee6bb5/AndroidManifest.xml:24:13-58
