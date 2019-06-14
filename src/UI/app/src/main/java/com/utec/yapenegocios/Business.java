@@ -7,6 +7,7 @@ public class Business {
     public Business(String name, String rol) {
         this.nameBusiness = name;
         this.rolOf = rol;
+
     }
 
     public Business() {
