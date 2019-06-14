@@ -99,7 +99,8 @@ The UI section has been divided into 2 parts which are for the collaborator and 
 #### Generate Qr
 ![Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/interaccion1.jpg)
 #### Add Collaborator
-![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/interaccion3.jpg)
+![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/interaccion3.jpeg)
+                     
 
 
 # FAQ
