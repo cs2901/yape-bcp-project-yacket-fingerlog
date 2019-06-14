@@ -138,3 +138,6 @@ The UI section has been divided into 2 parts which are for the collaborator and 
     * Inputs: entry of data.
     * Forms: entry of data for registration purposes.
     * SUNAT: Entity that collects taxes.
+    * Firebase: Cloud platform to help the web and mobile applications development
+    * Sendgrid: Is a customer communication platform for transactional and marketing email.
+    
