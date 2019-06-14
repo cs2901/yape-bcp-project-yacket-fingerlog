@@ -81,18 +81,15 @@ In order to have something to store the data sent, a database will be necessary.
 
 ## Architecture
 
+### Architecture Diagram
+
+![Architecture Diagram](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/arquitectura.jpg)
+
 ### Class Diagram
 
 ![class diagram](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/clases.jpg) 
 #### UI
 The UI section has been divided into 2 parts which are for the collaborator and the owner, obviously both have much in common. What they share both will be the part of registration and and making tickets and invoices. The difference is when we enter the owner component since it manages the collaborators. That is why owner have notifications, collaborators, movements, adjustments and profile. And the collaborator section can only make tickets and invoices. We have a controller view which will be able to handle each button that redirects us to another page, in addition we have an authentication section that jumps when the login data fails.
-
-
-### Architecture Diagram
-
-![Architecture Diagram](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/arquitectura.jpg)
-
-
 
 
 ### Interaction between components
