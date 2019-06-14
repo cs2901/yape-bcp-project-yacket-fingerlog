@@ -81,33 +81,25 @@ In order to have something to store the data sent, a database will be necessary.
 
 ## Architecture
 
-### Class Diagram
-
-![class diagram](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/DiagramaDeClases.png) 
-
 ### Architecture Diagram
 
-![Architecture Diagram](res/architecture_diagram.png)
+![Architecture Diagram](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/arquitectura.jpg)
 
-### UI
+### Class Diagram
+
+![class diagram](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/clases.jpg) 
+#### UI
 The UI section has been divided into 2 parts which are for the collaborator and the owner, obviously both have much in common. What they share both will be the part of registration and and making tickets and invoices. The difference is when we enter the owner component since it manages the collaborators. That is why owner have notifications, collaborators, movements, adjustments and profile. And the collaborator section can only make tickets and invoices. We have a controller view which will be able to handle each button that redirects us to another page, in addition we have an authentication section that jumps when the login data fails.
 
-![UI](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/Diagrama_de_componentes/clases.png)
-
-
-### Trigger
-The Trigger component will be in charge of sending the voucher information to SUNATs Data Base so the transaction will be legally completed and stored.
-
- ![dataStorage](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/Package%20Deploy.png)
 
 ### Interaction between components
 
-#### Add New Business
-![Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/IMG_0045.jpg)
-#### Generate Voucher
-![GenerateVoucher](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/IMG_0044.jpg)
-#### Log In as Business
-![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/res/IMG_0046.jpg)
+#### Remove Collaborator
+![removecollab](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/interaccion2.jpg)
+#### Generate Qr
+![Add Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/interaccion1.jpg)
+#### Add Collaborator
+![Log In as Business](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/Diagrama_de_componentes/interaccion3.jpg)
 
 
 # FAQ
