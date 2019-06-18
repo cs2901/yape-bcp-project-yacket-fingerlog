@@ -165,3 +165,7 @@ The Deploy component will be in charge of sending the voucher information to SUN
     * Inputs: entry of data.
     * Forms: entry of data for registration purposes.
     * SUNAT: Entity that collects taxes.
+
+# SonarCloud Badge
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=fsocualaya_yape-negocios)](https://sonarcloud.io/dashboard?id=fsocualaya_yape-negocios)
