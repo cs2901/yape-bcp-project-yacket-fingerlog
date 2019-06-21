@@ -118,16 +118,16 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.boleta:
-                invoice.setBackgroundColor(Color.rgb(255,255,255));
-                ticket.setBackgroundColor(Color.rgb(0,202,164));
-                payMent.setBackgroundColor(Color.rgb(0,202,164));
+                invoice.setBackground(getResources().getDrawable(R.drawable.buttonyape));
+                ticket.setBackground(getResources().getDrawable(R.drawable.activatebutton));
+                payMent.setBackground(getResources().getDrawable(R.drawable.activatebutton));
                 payMent.setAlpha(1);
                 payMethod = "Boleta";
                 break;
             case R.id.factura:
-                invoice.setBackgroundColor(Color.rgb(0,202,164));
-                ticket.setBackgroundColor(Color.rgb(255,255,255));
-                payMent.setBackgroundColor(Color.rgb(0,202,164));
+                invoice.setBackground(getResources().getDrawable(R.drawable.activatebutton));
+                ticket.setBackground(getResources().getDrawable(R.drawable.buttonyape));
+                payMent.setBackground(getResources().getDrawable(R.drawable.activatebutton));
                 payMent.setAlpha(1);
                 payMethod = "Factura";
                 break;

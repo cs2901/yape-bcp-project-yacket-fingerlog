@@ -4,10 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SelectBusinessActivity">
+    tools:context=".SelectBusinessActivity"
+    android:background="@color/background_color"
+    android:orientation="vertical">
 
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/establecimientos"
+        android:textColor="@color/background_color"
+        android:background="@color/menuColor"
+        android:paddingTop="25dp"
+        android:paddingLeft="15dp"
+        android:textSize="25dp">
+
+    </TextView>
 
     <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/rvbusiness"/>

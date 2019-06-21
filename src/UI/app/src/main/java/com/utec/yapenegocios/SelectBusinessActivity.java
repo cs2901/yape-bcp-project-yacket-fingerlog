@@ -39,7 +39,6 @@ public class SelectBusinessActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         Intent intent = getIntent();
         pin = intent.getStringExtra(ownerpin);
-        //pin="222222";
         arrayList = new ArrayList<Business>();
         System.out.println("pin");
 
