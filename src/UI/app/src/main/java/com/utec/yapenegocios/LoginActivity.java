@@ -299,7 +299,7 @@ public class LoginActivity extends AppCompatActivity {
     private void OpenMovementActiviy(){
         final String loginIntro;
         loginIntro = loginList(arrayList);
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("Register").child(loginIntro);
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("RegisterBusiness").child(loginIntro);
         System.out.println("DATABASE REFERENCE");
         System.out.println((databaseReference));
         System.out.println(loginIntro);

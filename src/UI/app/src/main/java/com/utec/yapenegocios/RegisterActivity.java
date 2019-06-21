@@ -8,7 +8,6 @@ import android.support.annotation.RequiresApi;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Editable;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +20,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static android.app.PendingIntent.getActivity;
 import static android.widget.Toast.LENGTH_LONG;
@@ -45,18 +43,16 @@ public class RegisterActivity extends AppCompatActivity {
      private Button onCancel;
      private FirebaseAuth mAuth;
      private FloatingActionButton addCollaborator;
-     private ArrayList<String> newAddColaborator = new ArrayList<String>();
+     private ArrayList<TextInputEditText> newAddColaborator = new ArrayList<TextInputEditText>();
 
     @Override
     protected void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
         setContentView(R.layout.register);
 
-        mDatabase = FirebaseDatabase.getInstance().getReference("Register");
+        mDatabase = FirebaseDatabase.getInstance().getReference("RegisterBusiness");
         oDatabase = FirebaseDatabase.getInstance().getReference("OwnerCollaborators");
 
-        System.out.println(mDatabase);
-        System.out.println(oDatabase);
 
         nameField = findViewById(R.id.nameBusiness);
         rucField = findViewById(R.id.ruc);
@@ -92,8 +88,7 @@ public class RegisterActivity extends AppCompatActivity {
                 textInput.setAllCaps(false);
                 textInput.setTextColor(Color.rgb(0,0,0));
                 textInput.setHintTextColor(Color.argb(0.35F,0.0F,0.0F,0.0F));
-                newAddColaborator.add(textInput.getEditableText().toString());
-                System.out.println(newAddColaborator);
+                newAddColaborator.add(textInput);
 
                 ll.addView(textInput);
                 addColla.addView(ll);
@@ -127,7 +122,10 @@ public class RegisterActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+
     private void submitPost() {
+
         final String nameBusiness = nameField.getText().toString();
         final String ruc = rucField.getText().toString();
         final String nAccount = accountField.getText().toString();
@@ -136,20 +134,22 @@ public class RegisterActivity extends AppCompatActivity {
         final String PIN= PINField.getText().toString();
         final String dniCollaborator = colaboratorField.getText().toString();
         final String yourNumber = numberPhoneField.getText().toString();
+        ArrayList<String> addNewCollaborator = new ArrayList<>();
+        for(TextInputEditText textInput: newAddColaborator){
+            addNewCollaborator.add(textInput.getText().toString());
+        }
 
         if(!TextUtils.isEmpty(PIN)){
-            Register register = new Register(nameBusiness, ruc, nAccount, direction,email,PIN,yourNumber,dniCollaborator,"Owner"/*,addNewCollaborator*/);
-            mDatabase.child(PIN).setValue(register);
+            RegisterBusiness registerBusiness = new RegisterBusiness(nameBusiness, ruc, nAccount, direction,email,PIN,yourNumber,dniCollaborator,"Owner",addNewCollaborator);
+
+            mDatabase.child(PIN).setValue(registerBusiness);
         }
 
     }
 
     private void submitPost2() {
-
         final String dniCollaborator = colaboratorField.getText().toString();
         final String PIN = PINField.getText().toString();
-
-
         if(!TextUtils.isEmpty(PIN)){
             OwnerCollaborators registerOwner = new OwnerCollaborators(dniCollaborator,"Colaborador");
             oDatabase.child(PIN).setValue(registerOwner);

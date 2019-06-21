@@ -36,7 +36,7 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
         super.onCreate(saveInstanceState);
         setContentView(R.layout.make_payments);
         extracDatafromIntent();
-        reference = FirebaseDatabase.getInstance().getReference().child("Register").child(Pin).child("1");
+        reference = FirebaseDatabase.getInstance().getReference().child("RegisterBusiness").child(Pin).child("1");
         ticket = findViewById(R.id.boleta);
         invoice = findViewById(R.id.factura);
         payMent = findViewById(R.id.pagar);
