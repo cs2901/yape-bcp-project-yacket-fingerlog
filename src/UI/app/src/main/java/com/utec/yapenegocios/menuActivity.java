@@ -13,7 +13,7 @@ public class menuActivity extends AppCompatActivity {
 
     private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
     private String pin;
-    Button notifications, colaborators,move,settings,profiles,sigout;
+    Button notifications, colaborators,move,settings,profiles,sigout, cobros;
     @Override
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
@@ -27,7 +27,7 @@ public class menuActivity extends AppCompatActivity {
         colaborators = findViewById(R.id.colaboradores);
         move = findViewById(R.id.movimientos);
         sigout = findViewById(R.id.cerrarSesion);
-
+        cobros = findViewById(R.id.cobrar);
 
         notifications.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +61,15 @@ public class menuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(menuActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cobros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(menuActivity.this, ColaboratorAccessActivity.class);
+                intent.putExtra(ownerpin,pin);
                 startActivity(intent);
             }
         });

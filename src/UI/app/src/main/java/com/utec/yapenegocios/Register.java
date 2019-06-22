@@ -2,7 +2,7 @@ package com.utec.yapenegocios;
 
 import java.util.ArrayList;
 
-public class RegisterBusiness {
+public class Register {
     public String nameBusiness;
     public String ruc;
     public String nAccount;
@@ -14,9 +14,9 @@ public class RegisterBusiness {
     public String rolOf;
     public ArrayList<String> addNewCollaborator;
 
-    public RegisterBusiness(){}
+    public Register(){}
 
-    public RegisterBusiness(String nameBusiness, String ruc, String nAccount, String direction, String email, String PIN, String yourNumber, String dniCollaborator, String rolOf, ArrayList<String> addNewCollaborator) {
+    public Register(String nameBusiness, String ruc, String nAccount, String direction, String email, String PIN, String yourNumber, String dniCollaborator, String rolOf, ArrayList<String> addNewCollaborator) {
         this.nameBusiness = nameBusiness;
         this.ruc = ruc;
         this.nAccount = nAccount;

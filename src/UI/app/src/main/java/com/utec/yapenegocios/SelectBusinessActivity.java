@@ -44,7 +44,7 @@ public class SelectBusinessActivity extends AppCompatActivity {
 
         System.out.println(pin);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("RegisterBusiness").child(pin);
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Register").child(pin);
         System.out.println(databaseReference);
         databaseReference.keepSynced(true);
         options = new FirebaseRecyclerOptions.Builder<Business>().setQuery(databaseReference,Business.class).build();

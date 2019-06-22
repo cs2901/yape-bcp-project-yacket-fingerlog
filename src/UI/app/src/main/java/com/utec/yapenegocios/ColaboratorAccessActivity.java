@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -28,6 +29,7 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
     int i = 0;
     Button ticket,invoice,payMent;
     ImageButton menuButton;
+    TextView business;
     Button generateQR;
     TextInputEditText items,amount;
     String nameBusiness,email,  ruc,direction,counting;
@@ -36,18 +38,15 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
         super.onCreate(saveInstanceState);
         setContentView(R.layout.make_payments);
         extracDatafromIntent();
-        reference = FirebaseDatabase.getInstance().getReference().child("RegisterBusiness").child(Pin).child("1");
+        reference = FirebaseDatabase.getInstance().getReference().child("Register").child(Pin).child("1");
         ticket = findViewById(R.id.boleta);
         invoice = findViewById(R.id.factura);
         payMent = findViewById(R.id.pagar);
         items = findViewById(R.id.items);
+        business = findViewById(R.id.Business);
         amount = findViewById(R.id.amount);
         menuButton = findViewById(R.id.searchImageButton);
         Payments = FirebaseDatabase.getInstance().getReference("Payments");
-        System.out.println("References ");
-        System.out.println(Payments);
-        System.out.println(reference);
-
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -55,11 +54,7 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                  email = dataSnapshot.child("email").getValue().toString();
                  ruc = dataSnapshot.child("ruc").getValue().toString();
                direction = dataSnapshot.child("direction").getValue().toString();
-                System.out.println("Data recibido ");
-               System.out.println(nameBusiness);
-                System.out.println(email);
-                System.out.println(ruc);
-                System.out.println(direction);
+                business.setText(nameBusiness);
             }
 
             @Override
@@ -67,7 +62,6 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                 Toast.makeText(getApplicationContext(),databaseError.getMessage(),Toast.LENGTH_LONG).show();
             }
         });
-
 
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,11 +79,7 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                 String Amount = amount.getText().toString();
                 String Items = items.getText().toString();
                 String method = payMethod;
-                System.out.println("Onclick");
-                System.out.println(Amount);
-                System.out.println(Items);
-                System.out.println(method);
-                i = i +1;
+                i = i + 1;
                 counting = String.valueOf(i);
                 if(!TextUtils.isEmpty(counting)){
                     Payments pay = new Payments(Items,method,Amount,nameBusiness,ruc, email, direction);

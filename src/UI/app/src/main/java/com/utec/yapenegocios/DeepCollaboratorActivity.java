@@ -37,7 +37,7 @@ public class DeepCollaboratorActivity extends AppCompatActivity {
     }
 
     private void deleteCollaborator(String pin){
-        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("OwnerCollaborators").child(pin).child("1");
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("Register").child(pin).child("1");
         databaseReference.removeValue();
 
         Toast.makeText(this,"Colaborador Eliminado",Toast.LENGTH_LONG).show();

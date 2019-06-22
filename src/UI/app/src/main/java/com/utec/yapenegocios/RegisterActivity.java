@@ -50,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.register);
 
-        mDatabase = FirebaseDatabase.getInstance().getReference("RegisterBusiness");
+        mDatabase = FirebaseDatabase.getInstance().getReference("Register");
         oDatabase = FirebaseDatabase.getInstance().getReference("OwnerCollaborators");
 
 
@@ -140,9 +140,9 @@ public class RegisterActivity extends AppCompatActivity {
         }
 
         if(!TextUtils.isEmpty(PIN)){
-            RegisterBusiness registerBusiness = new RegisterBusiness(nameBusiness, ruc, nAccount, direction,email,PIN,yourNumber,dniCollaborator,"Owner",addNewCollaborator);
+            Register register = new Register(nameBusiness, ruc, nAccount, direction,email,PIN,yourNumber,dniCollaborator,"Owner",addNewCollaborator);
 
-            mDatabase.child(PIN).setValue(registerBusiness);
+            mDatabase.child(PIN).child("1").setValue(register);
         }
 
     }
