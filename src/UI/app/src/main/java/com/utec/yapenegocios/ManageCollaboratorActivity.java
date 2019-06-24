@@ -30,13 +30,14 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_manage_collaborator);
-        recyclerView = findViewById(R.id.rvcollaborator);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        setContentView(R.layout.manage_collaborator);
+        //recyclerView = findViewById(R.id.rvcollaborator);
+
+    //  recyclerView.setHasFixedSize(true);
+      //  recyclerView.setLayoutManager(new LinearLayoutManager(this));
         Intent intent = getIntent();
         pin = intent.getStringExtra(ownerpin);
-        System.out.println(pin);
+       /*   System.out.println(pin);
         arrayList = new ArrayList<Collaborator>();
         databaseReference = FirebaseDatabase.getInstance().getReference().child("OwnerCollaborators").child(pin); // complete!!!!
         databaseReference.keepSynced(true);
@@ -70,18 +71,18 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
         };
 
 
-        recyclerView.setAdapter(adapter);
+        recyclerView.setAdapter(adapter);*/
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        adapter.startListening();
+        //adapter.startListening();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        adapter.stopListening();
+       // adapter.stopListening();
     }
 }

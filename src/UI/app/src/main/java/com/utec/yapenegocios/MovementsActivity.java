@@ -1,5 +1,6 @@
 package com.utec.yapenegocios;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -19,26 +20,26 @@ import com.google.firebase.database.Query;
 
 
 public class MovementsActivity extends AppCompatActivity{
-   RecyclerView recyclerView;
+    RecyclerView recyclerView;
 
-   ImageButton menuOption;
+    ImageButton menuOption;
     private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
     private String pin;
-     private  static final  String TAG = "fallo";
+    private  static final  String TAG = "fallo";
     DatabaseReference databaseReference;
-     FirebaseRecyclerOptions<Movement> options;
+    FirebaseRecyclerOptions<Movement> options;
     FirebaseRecyclerAdapter<Movement, MovementViewHolder> adapter;
 
     @Override
     protected void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
         setContentView(R.layout.movements);
+        extracDatafromIntent();
+      /*  recyclerView = findViewById(R.id.rvTransactions);
 
-        recyclerView = findViewById(R.id.rvTransactions);
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
 
-         FirebaseDatabase database = FirebaseDatabase.getInstance();
-
-         menuOption = findViewById(R.id.searchImageButton);
+        menuOption = findViewById(R.id.searchImageButton);
 
         Query query = FirebaseDatabase.getInstance()
                 .getReference()
@@ -46,8 +47,8 @@ public class MovementsActivity extends AppCompatActivity{
                 .limitToLast(50);
 
         options = new FirebaseRecyclerOptions.Builder<Movement>()
-                        .setQuery(query, Movement.class)
-                        .build();
+                .setQuery(query, Movement.class)
+                .build();
 
         menuOption.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,14 +75,25 @@ public class MovementsActivity extends AppCompatActivity{
         };
 
         recyclerView.setAdapter(adapter);
-        adapter.startListening();
+        adapter.startListening();*/
+    }
+    private void extracDatafromIntent() {
+        Intent intent = getIntent();
+        pin = intent.getStringExtra(ownerpin);
     }
 
 
-  @Override
+    public static Intent makeIntenet(Context context, String Pin){
+        Intent intent = new Intent(context, ColaboratorAccessActivity.class);
+        intent.putExtra(ownerpin,Pin);
+        return intent;
+    }
+
+
+    @Override
     protected void onDestroy() {
         super.onDestroy();
-        adapter.stopListening();
+       // adapter.stopListening();
     }
 
     @Override

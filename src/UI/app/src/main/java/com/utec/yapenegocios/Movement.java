@@ -1,23 +1,23 @@
 package com.utec.yapenegocios;
 
 public class Movement {
-    public int fecha;
-    public int monto;
+    public String fecha;
+    public String monto;
     public String por;
 
     public Movement() {}
 
-    public Movement(int fecha, int monto, String por) {
+    public Movement(String fecha, String monto, String por) {
         this.fecha = fecha;
         this.monto = monto;
         this.por = por;
     }
 
-    public int getFecha() {
+    public String getFecha() {
         return fecha;
     }
 
-    public int getMonto() {
+    public String getMonto() {
         return monto;
     }
 

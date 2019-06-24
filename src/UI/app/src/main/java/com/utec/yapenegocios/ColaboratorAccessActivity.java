@@ -139,7 +139,7 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                 final LinearLayout addMoreItems  = findViewById(R.id.addMore);
                 final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,80);
                 params.gravity = Gravity.CENTER_HORIZONTAL;
-                params.setMarginStart(300);
+                params.setMargins(1000,10,0,10);
                 addItem.setOnClickListener(new View.OnClickListener() {
                     int count = 1,count2 = 1;
                     @TargetApi(Build.VERSION_CODES.O)
@@ -150,11 +150,11 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                         final TextInputEditText textInput = new TextInputEditText(getApplicationContext());
                         final TextInputEditText textInput2 = new TextInputEditText(getApplicationContext());
                         textInput.setId(count=count+1);
-                        textInput.getLayoutParams();
+                        textInput.setLayoutParams(params);
                         textInput.setLayoutParams(new LinearLayout.LayoutParams(350,73));
                         textInput.setPadding(25,0,0,2);
                         textInput.setBackground(getResources().getDrawable(R.drawable.borders_pay));
-                        textInput.setHint("Item" + count);
+                        textInput.setHint("Item " + count);
                         textInput.setTextSize(18);
                         textInput.setAllCaps(false);
                         textInput.setTextColor(Color.rgb(0,0,0));
