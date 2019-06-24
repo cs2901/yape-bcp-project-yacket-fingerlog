@@ -27,4 +27,5 @@ public class MovementViewHolder extends RecyclerView.ViewHolder {
         t1.setText(movement.getPor());
         t2.setText(movement.fecha + "");
     }
+
 }

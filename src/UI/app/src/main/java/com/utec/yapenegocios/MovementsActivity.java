@@ -34,7 +34,7 @@ public class MovementsActivity extends AppCompatActivity{
         super.onCreate(saveInstanceState);
         setContentView(R.layout.movements);
 
-  recyclerView = findViewById(R.id.rvTransactions);
+        recyclerView = findViewById(R.id.rvTransactions);
 
          FirebaseDatabase database = FirebaseDatabase.getInstance();
 

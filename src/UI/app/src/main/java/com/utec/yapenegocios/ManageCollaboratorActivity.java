@@ -38,7 +38,7 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
         pin = intent.getStringExtra(ownerpin);
         System.out.println(pin);
         arrayList = new ArrayList<Collaborator>();
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("Register").child(pin).child("newCollaborator"); // complete!!!!
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("OwnerCollaborators").child(pin); // complete!!!!
         databaseReference.keepSynced(true);
         options = new FirebaseRecyclerOptions.Builder<Collaborator>().setQuery(databaseReference,Collaborator.class).build();
 
@@ -72,7 +72,7 @@ public class ManageCollaboratorActivity extends AppCompatActivity {
 
         recyclerView.setAdapter(adapter);
     }
-    
+
     @Override
     protected void onStart() {
         super.onStart();

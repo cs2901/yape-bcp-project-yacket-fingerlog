@@ -56,7 +56,6 @@ public class RegisterActivity extends AppCompatActivity {
 
         nameField = findViewById(R.id.nameBusiness);
         rucField = findViewById(R.id.ruc);
-        accountField = findViewById(R.id.nAccount);
         addressField = findViewById(R.id.direction);
         emailField = findViewById(R.id.email);
         PINField = findViewById(R.id.PIN);
@@ -128,7 +127,6 @@ public class RegisterActivity extends AppCompatActivity {
 
         final String nameBusiness = nameField.getText().toString();
         final String ruc = rucField.getText().toString();
-        final String nAccount = accountField.getText().toString();
         final String direction = addressField.getText().toString();
         final String email = emailField.getText().toString();
         final String PIN= PINField.getText().toString();
@@ -140,7 +138,7 @@ public class RegisterActivity extends AppCompatActivity {
         }
 
         if(!TextUtils.isEmpty(PIN)){
-            Register register = new Register(nameBusiness, ruc, nAccount, direction,email,PIN,yourNumber,dniCollaborator,"Owner",addNewCollaborator);
+            Register register = new Register(nameBusiness, ruc, direction,email,PIN,yourNumber,dniCollaborator,"Owner",addNewCollaborator);
 
             mDatabase.child(PIN).child("1").setValue(register);
         }

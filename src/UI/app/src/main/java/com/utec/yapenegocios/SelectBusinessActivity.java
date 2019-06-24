@@ -22,13 +22,11 @@ import java.util.ArrayList;
 public class SelectBusinessActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private ArrayList<Business> arrayList;
     private FirebaseRecyclerOptions<Business>options;
     private FirebaseRecyclerAdapter<Business,SelectBusinessViewHolder>adapter;
     private DatabaseReference databaseReference;
     private String pin;
     private static final String ownerpin = "com.utec.yapenegocios.EXTRA_NAME";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +37,6 @@ public class SelectBusinessActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         Intent intent = getIntent();
         pin = intent.getStringExtra(ownerpin);
-        arrayList = new ArrayList<Business>();
-        System.out.println("pin");
-
-        System.out.println(pin);
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Register").child(pin);
         System.out.println(databaseReference);
@@ -73,10 +67,7 @@ public class SelectBusinessActivity extends AppCompatActivity {
                 return new SelectBusinessViewHolder(LayoutInflater.from(SelectBusinessActivity.this).inflate(R.layout.row_business,viewGroup,false));
             }
         };
-
-
         recyclerView.setAdapter(adapter);
-
     }
 
     @Override

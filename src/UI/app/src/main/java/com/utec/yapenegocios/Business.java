@@ -4,6 +4,7 @@ public class Business {
     public String nameBusiness;
     public String rolOf;
 
+
     public Business(String name, String rol) {
         this.nameBusiness = name;
         this.rolOf = rol;

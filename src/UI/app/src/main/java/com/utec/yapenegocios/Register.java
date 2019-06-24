@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Register {
     public String nameBusiness;
     public String ruc;
-    public String nAccount;
     public String direction;
     public String email;
     public String PIN;
@@ -16,10 +15,9 @@ public class Register {
 
     public Register(){}
 
-    public Register(String nameBusiness, String ruc, String nAccount, String direction, String email, String PIN, String yourNumber, String dniCollaborator, String rolOf, ArrayList<String> addNewCollaborator) {
+    public Register(String nameBusiness, String ruc,  String direction, String email, String PIN, String yourNumber, String dniCollaborator, String rolOf, ArrayList<String> addNewCollaborator) {
         this.nameBusiness = nameBusiness;
         this.ruc = ruc;
-        this.nAccount = nAccount;
         this.direction = direction;
         this.email= email;
         this.PIN = PIN;
@@ -41,9 +39,7 @@ public class Register {
         return ruc;
     }
 
-    public String getnAccount() {
-        return nAccount;
-    }
+
 
     public String getDirection(){
         return direction;
@@ -67,5 +63,8 @@ public class Register {
 
     public String getRolOf(){return rolOf;}
 
+    public String getOneByCollaborator(int index){
+        return  addNewCollaborator.get(index);
+    }
 
 }
