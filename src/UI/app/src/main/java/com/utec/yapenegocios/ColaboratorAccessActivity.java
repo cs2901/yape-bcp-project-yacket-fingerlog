@@ -4,7 +4,11 @@ import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.shapes.Shape;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -28,6 +32,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+
+import top.defaults.drawabletoolbox.DrawableBuilder;
 
 public class ColaboratorAccessActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -136,22 +142,22 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                 payMent.setAlpha(1);
                 payMethod = "Factura";
                 addItem.setVisibility(View.VISIBLE);
-                final LinearLayout addMoreItems  = findViewById(R.id.addMore);
-                final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,80);
-                params.gravity = Gravity.CENTER_HORIZONTAL;
-                params.setMargins(1000,10,0,10);
                 addItem.setOnClickListener(new View.OnClickListener() {
                     int count = 1,count2 = 1;
                     @TargetApi(Build.VERSION_CODES.O)
                     @Override
                     public void onClick(View v) {
+                        final LinearLayout addMoreItems  = findViewById(R.id.addMore);
+                        final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,80);
+                        params.setMargins(20,0, 100,0);
+                        params.gravity = Gravity.CENTER_HORIZONTAL;
                         LinearLayout ll = new LinearLayout(getApplicationContext());
                         ll.setOrientation(LinearLayout.HORIZONTAL);
                         final TextInputEditText textInput = new TextInputEditText(getApplicationContext());
                         final TextInputEditText textInput2 = new TextInputEditText(getApplicationContext());
+
                         textInput.setId(count=count+1);
-                        textInput.setLayoutParams(params);
-                        textInput.setLayoutParams(new LinearLayout.LayoutParams(350,73));
+                        textInput.setLayoutParams(new LinearLayout.LayoutParams(450,73));
                         textInput.setPadding(25,0,0,2);
                         textInput.setBackground(getResources().getDrawable(R.drawable.borders_pay));
                         textInput.setHint("Item " + count);
@@ -162,9 +168,8 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                         newAddItemName.add(textInput);
 
                         textInput2.setId(count2=count2+1);
-                        textInput2.getLayoutParams();
-                        textInput2.setLeft(500);
-                        textInput2.setLayoutParams(new LinearLayout.LayoutParams(350,73));
+                        textInput2.setLayoutParams(params);
+                        textInput2.setLayoutParams(new LinearLayout.LayoutParams(250,73));
                         textInput2.setPadding(25,0,0,2);
                         textInput2.setBackground(getResources().getDrawable(R.drawable.borders_pay));
                         textInput2.setHint("S/.");
