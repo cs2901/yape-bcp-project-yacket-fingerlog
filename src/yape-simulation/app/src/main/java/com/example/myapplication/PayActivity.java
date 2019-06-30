@@ -56,21 +56,21 @@ public class PayActivity extends AppCompatActivity implements View.OnClickListen
                 startActivity(intent);
                 String salida = "";
                 for (int i = 0; i < items.size(); i++) {
-                    salida += items.get(i) + "\n";
+                    salida += items.get(i) + " ";
                 }
                 sendMailUsingSendGrid("noreply@yapenegocios.com", client.getCorreo(), "Comprobante de Pago",
-                        "Hola  " + client.getName() + "\n" +
-                                "Id: " + client.getId() + "\n" +
-                                "Dir: " + client.getDir() + "\n" +
-                                "Nombre de la empresa: "+qrS[0]+ "\n"+
-                                "Productos:" + salida +
+                        "Hola  " + client.getName() + "<br>" +
+                                "Id: " + client.getId() + "<br>" +
+                                "Dir: " + client.getDir() + "<br>" +
+                                "Nombre de la empresa: "+qrS[0]+ "<br>"+
+                                "Productos:" + salida +"<br>"+
                                 "TOTAL: " + qrS[2]
                         );
                 sendMailUsingSendGrid("noreply@yapenegocios.com", qrS[4], "Comprobante de Pago",
-                            "Hola "+ qrS[0]+ "\n"+
-                                    "Has recibido el pago por parte de "+ client.getName()+"\n"+
+                            "Hola "+ qrS[0]+ "<br>"+
+                                    "Has recibido el pago por parte de "+ client.getName()+"<br>"+
                                     "Productos: "+ salida +
-                                    "TOTAL:" + qrS[2] + "\n"
+                                    "TOTAL:" + qrS[2] + "<br>"
                         );
                 Toast.makeText(getApplicationContext(), "sending mail", Toast.LENGTH_SHORT).show();
             }
