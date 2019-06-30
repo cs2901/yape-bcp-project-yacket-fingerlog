@@ -156,7 +156,7 @@
                 >
 
 
-                <android.support.design.widget.TextInputEditText
+                <EditText
                     android:id="@+id/dniCollaborator"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

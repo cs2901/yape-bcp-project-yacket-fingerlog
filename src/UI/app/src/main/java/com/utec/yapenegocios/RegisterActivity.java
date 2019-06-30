@@ -43,7 +43,7 @@ public class RegisterActivity extends AppCompatActivity {
      private Button onCancel;
      private FirebaseAuth mAuth;
      private FloatingActionButton addCollaborator;
-     private ArrayList<TextInputEditText> newAddColaborator = new ArrayList<TextInputEditText>();
+     private ArrayList<EditText> newAddColaborator = new ArrayList<EditText>();
 
     @Override
     protected void onCreate(Bundle saveInstanceState){
@@ -83,7 +83,10 @@ public class RegisterActivity extends AppCompatActivity {
                 textInput.setPadding(25,0,0,2);
                 textInput.setBackground(getResources().getDrawable(R.drawable.my_border));
                 textInput.setHint("Colaboradores");
+                textInput.setEnabled(true);
+                textInput.getText();
                 textInput.setTextSize(18);
+                textInput.getFontFeatureSettings();
                 textInput.setAllCaps(false);
                 textInput.setTextColor(Color.rgb(0,0,0));
                 textInput.setHintTextColor(Color.argb(0.35F,0.0F,0.0F,0.0F));
@@ -133,7 +136,7 @@ public class RegisterActivity extends AppCompatActivity {
         final String dniCollaborator = colaboratorField.getText().toString();
         final String yourNumber = numberPhoneField.getText().toString();
         ArrayList<String> addNewCollaborator = new ArrayList<>();
-        for(TextInputEditText textInput: newAddColaborator){
+        for(EditText textInput: newAddColaborator){
             addNewCollaborator.add(textInput.getText().toString());
         }
 
