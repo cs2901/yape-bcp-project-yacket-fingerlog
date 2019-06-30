@@ -20,6 +20,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.GridLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -147,14 +148,14 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                     @TargetApi(Build.VERSION_CODES.O)
                     @Override
                     public void onClick(View v) {
-                        final LinearLayout addMoreItems  = findViewById(R.id.addMore);
-                        final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,80);
+                        final LinearLayout addMoreItems  = findViewById(R.id.moreitems);
+                        final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(450,80);
                         params.setMargins(20,0, 100,0);
                         params.gravity = Gravity.CENTER_HORIZONTAL;
                         LinearLayout ll = new LinearLayout(getApplicationContext());
                         ll.setOrientation(LinearLayout.HORIZONTAL);
                         final TextInputEditText textInput = new TextInputEditText(getApplicationContext());
-                        final TextInputEditText textInput2 = new TextInputEditText(getApplicationContext());
+
 
                         textInput.setId(count=count+1);
                         textInput.setLayoutParams(new LinearLayout.LayoutParams(450,73));
@@ -167,9 +168,15 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                         textInput.setHintTextColor(Color.argb(0.35F,0.0F,0.0F,0.0F));
                         newAddItemName.add(textInput);
 
+                        final LinearLayout addPrices = findViewById(R.id.price);
+                        final LinearLayout.LayoutParams priceparams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, 80);
+                        priceparams.gravity = Gravity.CENTER_HORIZONTAL;
+                        LinearLayout prices = new LinearLayout(getApplicationContext());
+                        prices.setOrientation((LinearLayout.VERTICAL));
+                        final TextInputEditText textInput2 = new TextInputEditText(getApplicationContext());
                         textInput2.setId(count2=count2+1);
                         textInput2.setLayoutParams(params);
-                        textInput2.setLayoutParams(new LinearLayout.LayoutParams(250,73));
+                        textInput2.setLayoutParams(new LinearLayout.LayoutParams(220,73));
                         textInput2.setPadding(25,0,0,2);
                         textInput2.setBackground(getResources().getDrawable(R.drawable.borders_pay));
                         textInput2.setHint("S/.");
@@ -180,8 +187,9 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                         newAddItemCost.add(textInput2);
 
                         ll.addView(textInput);
-                        ll.addView(textInput2);
+                        prices.addView(textInput2);
                         addMoreItems.addView(ll);
+                        addPrices.addView(prices);
                     }
                 });
                 break;
