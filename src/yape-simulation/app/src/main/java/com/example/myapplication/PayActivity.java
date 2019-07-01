@@ -59,20 +59,21 @@ public class PayActivity extends AppCompatActivity implements View.OnClickListen
                     salida += items.get(i) + " ";
                 }
                 sendMailUsingSendGrid("noreply@yapenegocios.com", client.getCorreo(), "Comprobante de Pago",
-                        "Hola  " + client.getName() + "<br>" +
-                                "Id: " + client.getId() + "<br>" +
-                                "Dir: " + client.getDir() + "<br>" +
-                                "Nombre de la empresa: "+qrS[0]+ "<br>"+
-                                "Productos:" + salida +"<br>"+
-                                "TOTAL: " + qrS[2]
+                        "Sr(a). " + client.getName() + ",\n\n" +
+                                "Usted realizó una compra en: \n\n \t\t" + qrS[0] + "\n\n \t\t" +
+                                qrS[4] + "\n\n" +
+                                "\n\n"+
+                                "Productos: " + "\n\n"+ salida +"\n\n"+
+                                "Total  S/. " + qrS[2]
                         );
-                sendMailUsingSendGrid("noreply@yapenegocios.com", qrS[4], "Comprobante de Pago",
-                            "Hola "+ qrS[0]+ "<br>"+
-                                    "Has recibido el pago por parte de "+ client.getName()+"<br>"+
-                                    "Productos: "+ salida +
-                                    "TOTAL:" + qrS[2] + "<br>"
+                sendMailUsingSendGrid("noreply@yapenegocios.com", qrS[3], "Comprobante de Pago",
+                            "Pago recibido\n\n"+
+                                    "Por parte de "+ client.getName()+"\n\n"+
+                                    "DNI "+client.getId()+"\n\n"+
+                                    "Productos: \n\n"+ salida + "\n\n" +
+                                    "Total S/.  " + qrS[2] + "\n\n"
                         );
-                Toast.makeText(getApplicationContext(), "sending mail", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Mail sent!", Toast.LENGTH_SHORT).show();
             }
         }
     }

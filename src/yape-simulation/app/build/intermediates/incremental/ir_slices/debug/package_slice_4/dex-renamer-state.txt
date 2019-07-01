@@ -1,4 +1,4 @@
-#Thu Jun 13 13:43:03 PET 2019
-base.0=/Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/transforms/dexMerger/debug/4
+#Sun Jun 30 21:04:54 PET 2019
+base.0=/Users/jaoks/Desktop/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex

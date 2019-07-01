@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/antoniotoche/Documents/GitHub/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/Users/jaoks/Desktop/yape-bcp-project-yacket-fingerlog/src/yape-simulation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/antoniotoche/.gradle/caches/transforms-2/files-2.1/ac4309fe6b171453c72f62bc74b9eb43/res/values-v26/values-v26.xml",
+                    "source": "/Users/jaoks/.gradle/caches/transforms-2/files-2.1/ffc701db5b12424befaccd0e1642b130/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
