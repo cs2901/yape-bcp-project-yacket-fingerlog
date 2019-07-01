@@ -50,7 +50,7 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
     TextInputEditText items,amount;
     private ArrayList<TextInputEditText> newAddItemName = new ArrayList<TextInputEditText>();
     private ArrayList<TextInputEditText> newAddItemCost = new ArrayList<TextInputEditText>();
-    String nameBusiness,email,  ruc,direction,counting;
+    String nameBusiness,email,  ruc,direction,counting,dni,rolOf;
     @Override
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
@@ -74,6 +74,8 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                  email = dataSnapshot.child("email").getValue().toString();
                  ruc = dataSnapshot.child("ruc").getValue().toString();
                direction = dataSnapshot.child("direction").getValue().toString();
+               dni = dataSnapshot.child("number").getValue().toString();
+                rolOf = dataSnapshot.child("rolOf").getValue().toString();
                 business.setText(nameBusiness);
             }
 
@@ -101,9 +103,9 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                 String method = payMethod;
                 i = i + 1;
                 counting = String.valueOf(i);
-                if(!TextUtils.isEmpty(counting)){
-                    Payments pay = new Payments(Items,method,Amount,nameBusiness,ruc, email, direction);
-                    Payments.child(counting).setValue(pay);
+                if(!TextUtils.isEmpty(Pin)){
+                    Payments pay = new Payments(Items,method,Amount,nameBusiness,ruc, email, direction,dni,rolOf);
+                    Payments.child(Pin).child(counting).setValue(pay);
                 }
                 Intent intent = new Intent(ColaboratorAccessActivity.this, displayqrActivity.class);
 
@@ -133,8 +135,57 @@ public class ColaboratorAccessActivity extends AppCompatActivity implements View
                 ticket.setBackground(getResources().getDrawable(R.drawable.activatebutton));
                 payMent.setBackground(getResources().getDrawable(R.drawable.activatebutton));
                 payMent.setAlpha(1);
-                addItem.setVisibility(View.GONE);
+                addItem.setVisibility(View.VISIBLE);
                 payMethod = "Boleta";
+                addItem.setOnClickListener(new View.OnClickListener() {
+                    int count = 1,count2 = 1;
+                    @TargetApi(Build.VERSION_CODES.O)
+                    @Override
+                    public void onClick(View v) {
+                        final LinearLayout addMoreItems  = findViewById(R.id.moreitems);
+                        final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(450,80);
+                        params.setMargins(20,0, 100,0);
+                        params.gravity = Gravity.CENTER_HORIZONTAL;
+                        LinearLayout ll = new LinearLayout(getApplicationContext());
+                        ll.setOrientation(LinearLayout.HORIZONTAL);
+                        final TextInputEditText textInput = new TextInputEditText(getApplicationContext());
+
+
+                        textInput.setId(count=count+1);
+                        textInput.setLayoutParams(new LinearLayout.LayoutParams(450,73));
+                        textInput.setPadding(25,0,0,2);
+                        textInput.setBackground(getResources().getDrawable(R.drawable.borders_pay));
+                        textInput.setHint("Item " + count);
+                        textInput.setTextSize(18);
+                        textInput.setAllCaps(false);
+                        textInput.setTextColor(Color.rgb(0,0,0));
+                        textInput.setHintTextColor(Color.argb(0.35F,0.0F,0.0F,0.0F));
+                        newAddItemName.add(textInput);
+
+                        final LinearLayout addPrices = findViewById(R.id.price);
+                        final LinearLayout.LayoutParams priceparams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, 80);
+                        priceparams.gravity = Gravity.CENTER_HORIZONTAL;
+                        LinearLayout prices = new LinearLayout(getApplicationContext());
+                        prices.setOrientation((LinearLayout.VERTICAL));
+                        final TextInputEditText textInput2 = new TextInputEditText(getApplicationContext());
+                        textInput2.setId(count2=count2+1);
+                        textInput2.setLayoutParams(params);
+                        textInput2.setLayoutParams(new LinearLayout.LayoutParams(220,73));
+                        textInput2.setPadding(25,0,0,2);
+                        textInput2.setBackground(getResources().getDrawable(R.drawable.borders_pay));
+                        textInput2.setHint("S/.");
+                        textInput2.setTextSize(18);
+                        textInput2.setAllCaps(false);
+                        textInput2.setTextColor(Color.rgb(0,0,0));
+                        textInput2.setHintTextColor(Color.argb(0.35F,0.0F,0.0F,0.0F));
+                        newAddItemCost.add(textInput2);
+
+                        ll.addView(textInput);
+                        prices.addView(textInput2);
+                        addMoreItems.addView(ll);
+                        addPrices.addView(prices);
+                    }
+                });
                 break;
             case R.id.factura:
                 invoice.setBackground(getResources().getDrawable(R.drawable.activatebutton));

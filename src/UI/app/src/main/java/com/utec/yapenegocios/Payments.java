@@ -9,12 +9,13 @@ public class Payments  {
     String ruc;
     String email;
     String direction;
-
+    String dni;
+    String typeOfCollaborator;
 
 
     public Payments() {}
 
-    public Payments( String item, String payMethod, String amount, String nameBusiness, String ruc, String email, String direction) {
+    public Payments( String item, String payMethod, String amount, String nameBusiness, String ruc, String email, String direction, String dni, String typeOfCollaborator) {
 
         this.item = item;
         this.payMethod = payMethod;
@@ -23,6 +24,16 @@ public class Payments  {
         this.ruc = ruc;
         this.email = email;
         this.direction = direction;
+        this.dni = dni;
+        this.typeOfCollaborator = typeOfCollaborator;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public String getTypeOfCollaborator() {
+        return typeOfCollaborator;
     }
 
     public String getItem() {

@@ -17,7 +17,7 @@
         <ImageButton
             android:id="@+id/searchImageButton"
             android:layout_width="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="17dp"
             android:layout_marginLeft="15dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -33,7 +33,7 @@
             android:layout_marginTop="15dp"
             android:text="@string/cobros"
             android:textColor="@color/background_color"
-            android:textSize="30dp" />
+            android:textSize="23dp" />
     </LinearLayout>
 
     <android.support.v4.widget.NestedScrollView

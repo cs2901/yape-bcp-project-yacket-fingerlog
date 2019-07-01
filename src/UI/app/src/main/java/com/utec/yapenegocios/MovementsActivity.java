@@ -35,6 +35,17 @@ public class MovementsActivity extends AppCompatActivity{
         super.onCreate(saveInstanceState);
         setContentView(R.layout.movements);
         extracDatafromIntent();
+
+        menuOption = findViewById(R.id.searchImageButton);
+
+        menuOption.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MovementsActivity.this,menuActivity.class);
+                intent.putExtra(ownerpin,pin);
+                startActivity(intent);
+            }
+        });
       /*  recyclerView = findViewById(R.id.rvTransactions);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -50,14 +61,7 @@ public class MovementsActivity extends AppCompatActivity{
                 .setQuery(query, Movement.class)
                 .build();
 
-        menuOption.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MovementsActivity.this,menuActivity.class);
-                intent.putExtra(ownerpin,pin);
-                startActivity(intent);
-            }
-        });
+
 
         adapter = new FirebaseRecyclerAdapter<Movement, MovementViewHolder>(options) {
             @Override

@@ -23,26 +23,16 @@ public class menuActivity extends AppCompatActivity {
         pin= intent.getStringExtra(ownerpin);
         System.out.println(pin);
         extracDatafromIntent();
-        notifications = findViewById(R.id.notificaciones);
         colaborators = findViewById(R.id.colaboradores);
         move = findViewById(R.id.movimientos);
         sigout = findViewById(R.id.cerrarSesion);
         cobros = findViewById(R.id.cobrar);
 
-        notifications.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(menuActivity.this, MovementsActivity.class);
-                intent.putExtra(ownerpin,pin);
-                startActivity(intent);
-            }
-        });
-
 
         colaborators.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(menuActivity.this, ManageCollaboratorActivity.class);
+                Intent intent = new Intent(menuActivity.this, CardListActivity.class);
                 intent.putExtra(ownerpin,pin);
                 startActivity(intent);
             }
@@ -51,7 +41,7 @@ public class menuActivity extends AppCompatActivity {
         move.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(menuActivity.this, MovementsActivity.class);
+                Intent intent = new Intent(menuActivity.this, CardPaymentsActivity.class);
                 intent.putExtra(ownerpin,pin);
                 startActivity(intent);
             }

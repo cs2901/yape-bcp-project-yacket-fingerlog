@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/background_color"
-    tools:context=".MovementsActivity">
+    tools:context=".CardListActivity"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,13 +15,13 @@
         tools:ignore="MissingConstraints">
 
         <ImageButton
-            android:id="@+id/searchImageButton"
+            android:id="@+id/backButton"
             android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="20dp"
             android:background="@color/menuColor"
             android:src="@drawable/left_arrow"
             tools:ignore="MissingConstraints" />
@@ -32,15 +31,31 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="15dp"
-            android:text="@string/movimientos"
+            android:text="@string/colaborador"
             android:textColor="@color/background_color"
-            android:textSize="30dp" />
+            android:textSize="23dp" />
     </LinearLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvTransactions"
+    <ListView
+        android:id="@+id/myList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        android:layout_height="400dp"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        >
 
+    </ListView>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/addCollaborador"
+        android:layout_height="50dp"
+        android:layout_marginLeft="90dp"
+        android:textAllCaps="false"
+        android:textColor="@color/background_color"
+        android:background="@drawable/activatebutton"
+        android:text="Añadir Colaborador" />
 </LinearLayout>

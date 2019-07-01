@@ -35,6 +35,8 @@ public class Register {
     public ArrayList<String> getNewCollaborator(){
         return addNewCollaborator;
     }
+
+
     public String getRuc() {
         return ruc;
     }

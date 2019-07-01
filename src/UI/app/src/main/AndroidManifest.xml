@@ -14,7 +14,8 @@
         android:parentActivityName=".LoginActivity"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-
+        <activity android:name=".CardPaymentsActivity"></activity>
+        <activity android:name=".CardListActivity"></activity>
         <activity android:name=".ManageCollaboratorActivity"></activity>
         <activity android:name=".displayqrActivity"/>
         <activity android:name=".DeepCollaboratorActivity" />
