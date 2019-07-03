@@ -109,7 +109,7 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 - v1.1 Get/Show data.
 - v1.2 Set Qr.
 
-### José Chávez/ Antonio Toche: Implement Database
+### José Chávez/ Antonio Toche/ Jeffrey Orihuela: Implement Database
 
 In order to have something to store the data sent, a database will be necessary. Here you can make querys. The database implemented will be Firebase ,a cloud-hosted NoSQL database.
 
