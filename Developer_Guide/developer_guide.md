@@ -40,7 +40,6 @@ The section of the UI in which the collaborator can generate charges. Collaborat
 - v1.1 Add picker Ticket/invoice.
 - v1.2 Add inputs.
 - v1.3 Add get back/pay button.
-- v1.4 Add display Qr.
 
 ### Antonio Toche: Menú UI feature.
 
@@ -48,7 +47,6 @@ The section of the UI in wich the Owner only can manage and get data from her Co
 
 - v1.1 Add buttons.
 - v1.2 Add Implements next activity.
-
 
 ### Antonio Toche: Owner managemente UI feature.
 
