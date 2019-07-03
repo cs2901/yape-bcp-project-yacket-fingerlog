@@ -15,6 +15,7 @@ This section will try to recreate the Yape UI as close as possible, Yape Negocio
 
 - v1.1 Add login UI from Yape.
 - v1.2 Add DNI Input.
+- v1.3 Create authentication function.
 
 ### Antonio Toche: Register section UI
 
@@ -40,6 +41,29 @@ The section of the UI in which the collaborator can generate charges. Collaborat
 - v1.2 Add inputs.
 - v1.3 Add get back/pay button.
 - v1.4 Add display Qr.
+
+### Antonio Toche: Menú UI feature.
+
+The section of the UI in wich the Owner only can manage and get data from her Collaborators.
+
+- v1.1 Add buttons.
+- v1.2 Add Implements next activity.
+
+### Antonio Toche: Owner managemente UI feature.
+
+The section of the UI in wicht the Owner only can manage collaborators, add and remove data.
+
+- v1.1 Add data dinamically from database.
+- v1.2 remove data dinamically from database.
+- v1.3 Add new collaborator.
+- v1.4 Remove collaborator.
+
+### Antonio Toche: Movements UI feature.
+
+The section of the UI in wich the Owner only can check the Collaborator transactions.
+
+- v1.1 add Data dinamically from database.
+- v1.2 update data from database dinamically.
 
 ### José Chávez: Owner UI feature.
 
