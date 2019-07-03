@@ -49,6 +49,7 @@ The section of the UI in wich the Owner only can manage and get data from her Co
 - v1.1 Add buttons.
 - v1.2 Add Implements next activity.
 
+
 ### Antonio Toche: Owner managemente UI feature.
 
 The section of the UI in wicht the Owner only can manage collaborators, add and remove data.
@@ -57,6 +58,7 @@ The section of the UI in wicht the Owner only can manage collaborators, add and 
 - v1.2 remove data dinamically from database.
 - v1.3 Add new collaborator.
 - v1.4 Remove collaborator.
+
 
 ### Antonio Toche: Movements UI feature.
 
