@@ -20,5 +20,5 @@ Factura
 - Toche, Antonio (@antoniott15)
 
 # Index
-* ####  [Developer Guide](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/Developer_Guide/developer_guide.md)
-* #### [User Guide](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/develop/User_Guide/Main%20Text/user_guide.md)
+* ####  [Developer Guide](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/Developer_Guide/developer_guide.md)
+* #### [User Guide](https://github.com/cs2901/yape-bcp-project-yacket-fingerlog/blob/master/User_Guide/Main%20Text/user_guide.md)
