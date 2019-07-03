@@ -29,6 +29,8 @@ In this section you can select if it is a collaborator or an owner. You must ent
 
 - v1.1 Add button component.
 - v1.2 Add pickers.
+- v1.3 Plot data in UI from the databse.
+- v1.4 Show data dynamically 
 
 ### José Chávez: Collaborator UI feature.
 
@@ -81,10 +83,13 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 
 ### José Chávez/ Antonio Toche: Implement Database
 
-In order to have something to store the data sent, a database will be necessary. Here you can make querys. The database implmented will be postgresql.
+In order to have something to store the data sent, a database will be necessary. Here you can make querys. The database implemented will be Firebase ,a cloud-hosted NoSQL database.
 
-- v1.1 Create entity-relationship model/ relational model/ normalize/ create tables.
-- v1.2 Connect database into the backend using an ORM.
+- v1.1 Create sets of data in JSON model.
+- v1.2 Connect database into the backend using Firebase Connect.
+- v1.3 Add users
+- v1.4 Add and remove collaborators
+- v2.0 Give data for the QR generator.
 
 # Design
 
