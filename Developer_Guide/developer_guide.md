@@ -78,9 +78,10 @@ Similar to collaborator feature the owner can generate charges, and manage sessi
 
 ### Fernando Socualaya: Qr code UI feature
 
-Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively. The qr is needed to make the payment effective, this way you avoid having a contact section and the transfer is faster.
+Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively.
 
-- v1.1 Add Qr interface.
+- v1.1 Extract the data about the purchase and store it. 
+- v1.2 Display the QR code based previously generated.
 
 ## Antonio Toche/Fernando Socualaya/Sergio Carbone/José Chávez/Jeffrey Orihuela: Implementation
 
@@ -106,10 +107,11 @@ The selling generator will be the component that sends the generated selling to 
 
 ### Fernando Socualaya: Qr generator
 
-Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively.
+Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively. The qr is needed to make the payment effective, this way you avoid having a contact section and the transfer is faster. In that way, the QR code needs to have all the data about the transaction. This is data from the business, data from the customer and about the items purchased.
 
-- v1.1 Get/Show data.
-- v1.2 Set Qr.
+- v1.1 Get data about the purchase and store it. 
+- v1.2 Set Qr with the stored data.
+- v1.3 Display de generated code.
 
 ### José Chávez/ Antonio Toche/ Jeffrey Orihuela: Implement Database
 
