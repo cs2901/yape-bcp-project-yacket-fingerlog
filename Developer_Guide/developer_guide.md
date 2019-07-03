@@ -7,30 +7,41 @@ The purpose of this project will be to implement the functionality of electronic
 
 # Features
 
-## Antonio Toche/Fernando Socualaya/Sergio Carbone: UI design
+## Antonio Toche/Jose Chavez/Fernando Socualaya: UI design
 
-### Sergio Carbone/Antonio Toche/Fernando Socualaya: Yape UI Login
+### Antonio Toche: Yape UI Login
 
 This section will try to recreate the Yape UI as close as possible, Yape Negocios will be a different application to the already known Yape, but will preserve some of the existing designs.
 
 - v1.1 Add login UI from Yape.
 - v1.2 Add DNI Input.
 
-### Fernando Socualaya: Register section UI
+### Antonio Toche: Register section UI
 
 In this section the UI will be made for the part of the registry that the owner will have to do. The owner must be registered to be able to access an account and that his collaborators have access.
 
 - v1.1 Add forms.
 - v1.2 Add register button.
 
-### Sergio Carbone: Entity picker
+### José Chávez: Entity picker
 
 In this section you can select if it is a collaborator or an owner. You must enter as a collaborator or owner to upload the information of each company respectively. It was implemented in this way since you can own one company and collaborate with another.
 
 - v1.1 Add button component.
 - v1.2 Add pickers.
+- v1.3 Plot data in UI from the databse.
+- v1.4 Show data dynamically 
 
-### Antonio Toche: Owner UI feature.
+### José Chávez: Collaborator UI feature.
+
+The section of the UI in which the collaborator can generate charges. Collaborators can choose between ticket and invoice depending on what is required, and will proceed in a different way depending on what has been selected.
+
+- v1.1 Add picker Ticket/invoice.
+- v1.2 Add inputs.
+- v1.3 Add get back/pay button.
+- v1.4 Add display Qr.
+
+### José Chávez: Owner UI feature.
 
 Similar to collaborator feature the owner can generate charges, and manage session. Here the owner can create and remove a new collaborator, the owner will be able to see the last entry of each one of his collaborators thanks to the section of notifications and also he will be able to see what contributed by each collaborator.
 
@@ -45,9 +56,9 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 
 - v1.1 Add Qr interface.
 
-## Antonio Toche/Fernando Socualaya/Sergio Carbone/Jose Chavez/ Jeffrey Orihuela: Implementation
+## Antonio Toche/Fernando Socualaya/Sergio Carbone/José Chávez/Jeffrey Orihuela: Implementation
 
-### Jeffrey Orihuela/Antonio Toche: Ticket
+### Jeffrey Orihuela/Sergio Carbone: Ticket
 
 The ticket generator will be the feature that sends the generated ticket to the respective emails. For this feature, you need the yape owner's email and the customer's email these had to be filled in previously.
 
@@ -55,7 +66,7 @@ The ticket generator will be the feature that sends the generated ticket to the 
 - v1.2 Send email.
 - v1.3 Save ticket.
 
-### Fernando Socualaya/José Chavez: Invoice
+### Jeffrey Orihuela/Sergio Carbone: Invoice
 
 The selling generator will be the component that sends the generated selling to the respective emails. For this function, you need the email from the Yape owner and the customer's email, in addition you will need the RUC, adress and business name all these had to be filled in previously.
 
@@ -63,7 +74,7 @@ The selling generator will be the component that sends the generated selling to 
 - v1.2 Send data to Sunat.
 - v1.3 Send/Save bill to email.
 
-### Sergio Carbone/Jeffrey Orihuela: Qr generator
+### Fernando Socualaya: Qr generator
 
 Once the items are placed, you will need to generate the Qr code so that the payment can be made effectively.
 
@@ -72,10 +83,13 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 
 ### José Chávez/ Antonio Toche: Implement Database
 
-In order to have something to store the data sent, a database will be necessary. Here you can make querys. The database implmented will be postgresql.
+In order to have something to store the data sent, a database will be necessary. Here you can make querys. The database implemented will be Firebase ,a cloud-hosted NoSQL database.
 
-- v1.1 Create entity-relationship model/ relational model/ normalize/ create tables.
-- v1.2 Connect database into the backend using an ORM.
+- v1.1 Create sets of data in JSON model.
+- v1.2 Connect database into the backend using Firebase Connect.
+- v1.3 Add users
+- v1.4 Add and remove collaborators
+- v2.0 Give data for the QR generator.
 
 # Design
 
