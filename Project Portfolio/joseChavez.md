@@ -12,7 +12,7 @@ Yape Negocios provides a new feature to Yape, making it able to generate tickets
 * Dynamically rendering for special layouts with data from the database.
 * Adding and Deleting data from the database.
 * Create of a simple simulation of Yape application.
-* Fully contribution to the product documentation:
+* Contribution to the product documentation:
   * User Guide (Diagrams, classes, etc.)
   * Developer Guide (Features in Developer Guide)
   * Repository creation and workspace maintenance
