@@ -82,21 +82,25 @@ Once the items are placed, you will need to generate the Qr code so that the pay
 
 ## Antonio Toche/Fernando Socualaya/Sergio Carbone/José Chávez/Jeffrey Orihuela: Implementation
 
-### Jeffrey Orihuela/Sergio Carbone: Ticket
+### Jeffrey Orihuela/Sergio Carbone: Ticket 
 
 The ticket generator will be the feature that sends the generated ticket to the respective emails. For this feature, you need the yape owner's email and the customer's email these had to be filled in previously.
 
-- v1.1 Get data.
-- v1.2 Send email.
-- v1.3 Save ticket.
+- v1.1 Implement SendGrid API into our application and sends a testing fixed mail.
+- v1.2 The users can place their own data so he can receive the ticket in his mailbox.
+- v1.3 Parse the data received by scanning the QR code.
+- v1.4 Fill the ticket with all the corresponding data.
+- v2.0 Style mail in plain text format.
 
 ### Jeffrey Orihuela/Sergio Carbone: Invoice
 
 The selling generator will be the component that sends the generated selling to the respective emails. For this function, you need the email from the Yape owner and the customer's email, in addition you will need the RUC, adress and business name all these had to be filled in previously.
 
-- v1.1 Get data.
-- v1.2 Send data to Sunat.
-- v1.3 Send/Save bill to email.
+- v1.1 Implement SendGrid API into our application and sends a testing fixed mail.
+- v1.2 The users can place their own data so he can receive the ticket in his mailbox.
+- v1.3 Parse the data received by scanning the QR code.
+- v1.4 Fill the ticket with all the corresponding data.
+- v2.0 Style mail in plain text format.
 
 ### Fernando Socualaya: Qr generator
 
