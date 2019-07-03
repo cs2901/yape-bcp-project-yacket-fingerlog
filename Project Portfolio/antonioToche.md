@@ -24,3 +24,6 @@ Yape Negocios provides a new feature to Yape, making it able to generate tickets
   - As a developer I contributed to Architecture diagramas.
   - As a developer I contributed to Class
   - As a developer I contributed to code.
+  - As a developer I implment the YAPE negocios UI.
+  - As a developer I contributed to create the Database implementation.
+  - As a developer I contributed to control flow of data.
